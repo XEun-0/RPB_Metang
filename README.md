@@ -1,10 +1,10 @@
-RPB_Metang
+# RPB_Metang
 
-Remote Printer Bridge
+## Remote Printer Bridge
 
-Future enhancements:
-    * isolate dockerfile to used built image in XEContainers
-    * integrate FreeRTOS
+### Future Enhancements
+- Isolate Dockerfile to use built image in `XEContainers`
+- Integrate FreeRTOS
 
-Initial features:
-    * Attempting on MCU's ESP32 + BLE + WIFI
+### Initial Features
+- Attempting on MCU's ESP32 + BLE + Wi-Fi
