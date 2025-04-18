@@ -22,6 +22,10 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /opt
 RUN git clone --recursive https://github.com/espressif/esp-idf.git
 WORKDIR /opt/esp-idf
+
+# Checkout a compatible version (e.g., v5.4)
+RUN git checkout v5.4 && git submodule update --init --recursive
+
 RUN ./install.sh
 RUN echo 'source /opt/esp-idf/export.sh' >> ~/.bashrc
 

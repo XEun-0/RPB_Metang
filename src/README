@@ -1,0 +1,11 @@
+platformio commands
+
+// to compile
+pio run 
+
+platformio run
+platformio run -t upload
+platformio device monitor
+
+// All three
+platformio run -t upload -t monitor

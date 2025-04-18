@@ -2,7 +2,7 @@
 
 # Verify no device forwarded
 echo -e "$(tput bold)Verifying no forwarded device...$(tput sgr0)"
-ls /dev/ttyACM*
+ls /dev/ttyUSB*
 
 # Get the directory where this bash script is located
 SCRIPT_DIR=$(dirname "$(realpath "$0")")
@@ -20,4 +20,4 @@ powershell.exe -command $POWERSHELL_SCRIPT -Verb runAs
 
 # Verify device forwarding
 echo -e "$(tput bold)Verifying forwarded device...$(tput sgr0)"
-ls /dev/ttyACM*
+ls /dev/ttyUSB*
