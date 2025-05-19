@@ -1,15 +1,18 @@
 # RPB_Metang
 
-## SMW_Rotom
-RTOS-Based Smart Watch
-Hardware Components list:
-- ESP32
-- TFT Ili9 Something
-- XPT2946
+# Hardware
+2x YD EPS32-23 2022-V1.3
 
-### Future Enhancements
-- Isolate Dockerfile to use built image in `XEContainers`
-- Integrate FreeRTOS
+# Flowdown
+[ Computer or another microcontroller ]
+         |
+         |  (ZJS binary via UDP)
+         v
+     [ ESP32-S3 ]
+         |
+         |  (raw USB bulk transfer)
+         v
+ [ HP LaserJet P1102w printer ]
 
 ### Initial Features
 - Attempting on MCU's ESP32 + BLE + Wi-Fi

@@ -7,7 +7,7 @@ void setup() {
     xTaskCreate(
         webListenerTaskLauncher,
         "webListenerTaskLauncher",
-        2048,
+        6000,
         NULL,
         1,
         NULL

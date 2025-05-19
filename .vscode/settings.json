@@ -2,6 +2,7 @@
     "cmake.sourceDirectory": "O:/Workspace/SMW_Rotom/lib/TFT_eSPI",
     "files.associations": {
         "ios": "cpp",
-        "cstring": "cpp"
+        "cstring": "cpp",
+        "ostream": "cpp"
     }
 }
