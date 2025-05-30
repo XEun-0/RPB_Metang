@@ -1,0 +1,106 @@
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Printer Discovery Utility ver. 4.1
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+
+--------------------
+| DEVICE DISCOVERY |
+--------------------
+
+  Device URI                                                            Model
+  --------------------------------------------------------------------  --------------------------------
+  hp:/usb/HP_LaserJet_Professional_P_1102w?serial=000000000W474CFPPR1a  HP LaserJet Professional P 1102w
+
+Found 1 printer(s) on the 'usb' bus.
+
+
+Done.
+fjura@fjura:~$ sudo hp-setup -i
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Printer/Fax Setup Utility ver. 9.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+(Note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.)
+
+
+--------------------------------
+| SELECT CONNECTION (I/O) TYPE |
+--------------------------------
+
+  Num       Connection  Description
+            Type
+  --------  ----------  ----------------------------------------------------------
+  0*        usb         Universal Serial Bus (USB)
+  1         net         Network/Ethernet/Wireless (direct connection or JetDirect)
+
+Enter number 0...1 for connection type (q=quit, enter=usb*) ?
+
+Using connection type: usb
+
+
+Setting up device: hp:/usb/HP_LaserJet_Professional_P_1102w?serial=000000000W474CFPPR1a
+
+
+
+---------------------
+| PRINT QUEUE SETUP |
+---------------------
+
+                                                                                                             Main
+Using queue name: Main
+Locating PPD file... Please wait.
+
+Found PPD file: drv:///hpcups.drv/hp-laserjet_professional_p_1102w.ppd
+Description:
+
+Note: The model number may vary slightly from the actual model number on the device.
+
+Does this PPD file appear to be the correct one (y=yes*, n=no, q=quit) ?
+Enter a location description for this printer (q=quit) ?
+Enter additonal information or notes for this printer (q=quit) ?
+
+Adding print queue to CUPS:
+Device URI: hp:/usb/HP_LaserJet_Professional_P_1102w?serial=000000000W474CFPPR1a
+Queue name: Main
+PPD file: drv:///hpcups.drv/hp-laserjet_professional_p_1102w.ppd
+Location:
+Information:
+
+
+---------------------
+| PRINTER TEST PAGE |
+---------------------
+
+
+Would you like to print a test page (y=yes*, n=no, q=quit) ?
+warning: hp-testpage should not be run as root/superuser.
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Testpage Print Utility ver. 6.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+Printing test page to printer Main...
+request id is Main-1 (1 file(s))
+Test page has been sent to printer.
+
+note: If an error occured, or the test page failed to print, refer to the HPLIP website
+note: at: http://hplip.sourceforge.net for troubleshooting and support.
+
+
+Done.
+
+Done.
+fjura@fjura:~$

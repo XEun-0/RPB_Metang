@@ -1,0 +1,57 @@
+PS C:\WINDOWS\system32> nmap -sn 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-20 15:03 Pacific Daylight Time
+Nmap scan report for SAX1V1R.lan (192.168.1.1)
+Host is up (0.0019s latency).
+MAC Address: 14:7D:05:8F:2B:38 (Sercomm Philippines)
+Nmap scan report for 192.168.1.45
+Host is up (0.11s latency).
+MAC Address: DC:06:75:87:5B:0C (Unknown)
+Nmap scan report for Edwards-MBP.lan (192.168.1.59)
+Host is up (0.16s latency).
+MAC Address: 9C:3E:53:86:AD:88 (Apple)
+Nmap scan report for FJURA-G_LPTP_0.lan (192.168.1.89)
+Host is up (0.065s latency).
+MAC Address: F8:FE:5E:2F:E5:A9 (Intel Corporate)
+Nmap scan report for 192.168.1.133
+Host is up (0.37s latency).
+MAC Address: B8:78:26:3F:42:A7 (Nintendo)
+Nmap scan report for 192.168.1.144
+Host is up (0.36s latency).
+MAC Address: CE:95:DC:6B:51:F2 (Unknown)
+Nmap scan report for host.docker.internal (192.168.1.31)
+Host is up.
+Nmap done: 256 IP addresses (7 hosts up) scanned in 7.30 seconds
+
+PS C:\WINDOWS\system32> nmap -sn 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-20 22:52 Pacific Daylight Time
+Nmap scan report for SAX1V1R.lan (192.168.1.1)
+Host is up (0.0018s latency).
+MAC Address: 14:7D:05:8F:2B:38 (Sercomm Philippines)
+Nmap scan report for 192.168.1.45
+Host is up (0.15s latency).
+MAC Address: DC:06:75:87:5B:0C (Unknown)
+Nmap scan report for Edwards-MBP.lan (192.168.1.59)
+Host is up (0.11s latency).
+MAC Address: 9C:3E:53:86:AD:88 (Apple)
+Nmap scan report for Galaxy-Z-Fold4.lan (192.168.1.85)
+Host is up (0.086s latency).
+MAC Address: DE:44:F5:10:D9:AD (Unknown)
+Nmap scan report for FJURA-G_LPTP_0.lan (192.168.1.89)
+Host is up.
+MAC Address: F8:FE:5E:2F:E5:A9 (Intel Corporate)
+Nmap scan report for A6408288.lan (192.168.1.98)
+Host is up (0.10s latency).
+MAC Address: F0:D4:15:FF:2F:85 (Intel Corporate)
+Nmap scan report for 192.168.1.133
+Host is up (0.088s latency).
+MAC Address: B8:78:26:3F:42:A7 (Nintendo)
+Nmap scan report for 192.168.1.144
+Host is up (0.070s latency).
+MAC Address: CE:95:DC:6B:51:F2 (Unknown)
+Nmap scan report for 192.168.1.178
+Host is up (0.030s latency).
+MAC Address: 1C:45:86:C1:55:7F (Nintendo)
+Nmap scan report for host.docker.internal (192.168.1.31)
+Host is up.
+Nmap done: 256 IP addresses (10 hosts up) scanned in 3.85 seconds
+PS C:\WINDOWS\system32>

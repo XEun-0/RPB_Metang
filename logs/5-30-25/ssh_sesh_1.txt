@@ -1,0 +1,2919 @@
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ nmap -sn 192.168.0.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-29 14:12 Pacific Daylight Time
+
+Nmap scan report for 192.168.0.0
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.1
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.2
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.3
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.4
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.5
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.6
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.7
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.8
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.9
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.10
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.11
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.12
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.13
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.14
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.15
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.16
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.17
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.18
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.19
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.20
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.21
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.22
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.23
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.24
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.25
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.26
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.27
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.28
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.29
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.30
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.31
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.32
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.33
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.34
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.35
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.36
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.37
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.38
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.39
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.40
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.41
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.42
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.43
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.44
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.45
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.46
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.47
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.48
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.49
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.50
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.51
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.52
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.53
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.54
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.55
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.56
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.57
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.58
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.59
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.60
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.61
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.62
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.63
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.64
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.65
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.66
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.67
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.68
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.69
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.70
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.71
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.72
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.73
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.74
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.75
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.76
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.77
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.78
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.79
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.80
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.81
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.82
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.83
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.84
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.85
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.86
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.87
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.88
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.89
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.90
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.91
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.92
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.93
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.94
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.95
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.96
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.97
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.98
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.99
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.100
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.101
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.102
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.103
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.104
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.105
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.106
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.107
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.108
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.109
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.110
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.111
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.112
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.113
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.114
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.115
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.116
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.117
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.118
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.119
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.120
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.121
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.122
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.123
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.124
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.125
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.126
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.127
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.128
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.129
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.130
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.131
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.132
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.133
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.134
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.135
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.136
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.137
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.138
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.139
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.140
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.141
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.142
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.143
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.144
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.145
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.146
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.147
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.148
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.149
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.150
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.151
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.152
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.153
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.154
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.155
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.156
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.157
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.158
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.159
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.160
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.161
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.162
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.163
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.164
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.165
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.166
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.167
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.168
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.169
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.170
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.171
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.172
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.173
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.174
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.175
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.176
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.177
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.178
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.179
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.180
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.181
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.182
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.183
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.184
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.185
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.186
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.187
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.188
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.189
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.190
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.191
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.192
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.193
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.194
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.195
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.196
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.197
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.198
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.199
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.200
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.201
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.202
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.203
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.204
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.205
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.206
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.207
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.208
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.209
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.210
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.211
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.212
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.213
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.214
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.215
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.216
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.217
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.218
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.219
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.220
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.221
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.222
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.223
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.224
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.225
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.226
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.227
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.228
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.229
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.230
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.231
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.232
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.233
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.234
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.235
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.236
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.237
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.238
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.239
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.240
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.241
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.242
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.243
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.244
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.245
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.246
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.247
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.248
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.249
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.250
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.251
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.252
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.253
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.254
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.255
+Host is up (0.0010s latency).
+Nmap done: 256 IP addresses (256 hosts up) scanned in 70.16 seconds
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ nmap -sn 192.168.0.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-29 14:15 Pacific Daylight Time
+
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ nmap -sn 192.168.0.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-29 14:19 Pacific Daylight Time
+Nmap scan report for 192.168.0.0
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.1
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.2
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.3
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.4
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.5
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.6
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.7
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.8
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.9
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.10
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.11
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.12
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.13
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.14
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.15
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.16
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.17
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.18
+Host is up (0.011s latency).
+Nmap scan report for 192.168.0.19
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.20
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.21
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.22
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.23
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.24
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.25
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.26
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.27
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.28
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.29
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.30
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.31
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.32
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.33
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.34
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.35
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.36
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.37
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.38
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.39
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.40
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.41
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.42
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.43
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.44
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.45
+Host is up (0.011s latency).
+Nmap scan report for 192.168.0.46
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.47
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.48
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.49
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.50
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.51
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.52
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.53
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.54
+Host is up (0.011s latency).
+Nmap scan report for 192.168.0.55
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.56
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.57
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.58
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.59
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.60
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.61
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.62
+Host is up (0.0020s latency).
+Nmap scan report for 192.168.0.63
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.64
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.65
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.66
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.67
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.68
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.69
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.70
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.71
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.72
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.73
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.74
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.75
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.76
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.77
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.78
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.79
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.80
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.81
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.82
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.83
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.84
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.85
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.86
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.87
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.88
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.89
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.90
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.91
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.92
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.93
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.94
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.95
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.96
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.97
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.98
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.99
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.100
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.101
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.102
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.103
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.104
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.105
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.106
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.107
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.108
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.109
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.110
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.111
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.112
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.113
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.114
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.115
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.116
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.117
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.118
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.119
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.120
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.121
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.122
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.123
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.124
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.125
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.126
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.127
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.128
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.129
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.130
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.131
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.132
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.133
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.134
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.135
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.136
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.137
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.138
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.139
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.140
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.141
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.142
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.143
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.144
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.145
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.146
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.147
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.148
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.149
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.150
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.151
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.152
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.153
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.154
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.155
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.156
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.157
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.158
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.159
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.160
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.161
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.162
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.163
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.164
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.165
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.166
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.167
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.168
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.169
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.170
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.171
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.172
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.173
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.174
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.175
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.176
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.177
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.178
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.179
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.180
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.181
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.182
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.183
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.184
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.185
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.186
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.187
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.188
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.189
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.190
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.191
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.192
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.193
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.194
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.195
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.196
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.197
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.198
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.199
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.200
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.201
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.202
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.203
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.204
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.205
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.206
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.207
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.208
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.209
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.210
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.211
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.212
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.213
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.214
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.215
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.216
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.217
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.218
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.219
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.220
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.221
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.222
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.223
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.224
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.225
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.226
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.227
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.228
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.229
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.230
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.231
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.232
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.233
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.234
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.235
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.236
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.237
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.238
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.239
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.240
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.241
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.242
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.243
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.244
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.245
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.246
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.247
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.248
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.249
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.250
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.251
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.252
+Host is up (0.00s latency).
+Nmap scan report for 192.168.0.253
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.254
+Host is up (0.0010s latency).
+Nmap scan report for 192.168.0.255
+Host is up (0.0010s latency).
+Nmap done: 256 IP addresses (256 hosts up) scanned in 60.79 seconds
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$  nmap -sn 192.168.1.1/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-29 14:31 Pacific Daylight Time
+Nmap scan report for SAX1V1R.lan (192.168.1.1)
+Host is up (0.0010s latency).
+MAC Address: 14:7D:05:8F:2B:38 (Sercomm Philippines)
+Nmap scan report for 192.168.1.45
+Host is up (0.046s latency).
+MAC Address: DC:06:75:87:5B:0C (Unknown)
+Nmap scan report for Galaxy-Z-Fold4.lan (192.168.1.85)
+Host is up (0.20s latency).
+MAC Address: DE:44:F5:10:D9:AD (Unknown)
+Nmap scan report for A6408288.lan (192.168.1.98)
+Host is up (0.11s latency).
+MAC Address: F0:D4:15:FF:2F:85 (Intel Corporate)
+Nmap scan report for fjura.lan (192.168.1.117)
+Host is up (0.20s latency).
+MAC Address: 2C:CF:67:CE:5B:22 (Raspberry Pi (Trading))
+Nmap scan report for 192.168.1.133
+Host is up (0.19s latency).
+MAC Address: B8:78:26:3F:42:A7 (Nintendo)
+Nmap scan report for 192.168.1.144
+Host is up (0.21s latency).
+MAC Address: CE:95:DC:6B:51:F2 (Unknown)
+Nmap scan report for esp32s3-217024.lan (192.168.1.251)
+Host is up (0.16s latency).
+MAC Address: F0:9E:9E:21:70:24 (Unknown)
+Nmap scan report for host.docker.internal (192.168.1.31)
+Host is up.
+Nmap done: 256 IP addresses (9 hosts up) scanned in 3.85 seconds
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ ssh fjura
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ED25519 key sent by the remote host is
+SHA256:ZDe0h1jNRu/Rms5/0J7m8gZkC3ST4Dleg1hOahIi1TQ.
+Please contact your system administrator.
+Add correct host key in /c/Users/butte/.ssh/known_hosts to get rid of this message.
+Offending ED25519 key in /c/Users/butte/.ssh/known_hosts:8
+Host key for fjura has changed and you have requested strict checking.
+Host key verification failed.
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ ssh fjura@Fjura@DESKTOP-IB10381 MINGW64 ~
+$ ssh fjura
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ED25519 key sent by the remote host is
+SHA256:ZDe0h1jNRu/Rms5/0J7m8gZkC3ST4Dleg1hOahIi1TQ.
+Please contact your system administrator.
+Add correct host key in /c/Users/butte/.ssh/known_hosts to get rid of this message.
+Offending ED25519 key in /c/Users/butte/.ssh/known_hosts:8
+Host key for fjura has changed and you have requested strict checking.
+Host key verification failed.
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+
+
+
+
+
+bash: $: command not found
+bash: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@: command not found
+bash: @: command not found
+bash: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@: command not found
+bash: IT: command not found
+bash: syntax error near unexpected token `('
+bash: It: command not found
+bash: The: command not found
+
+bash: SHA256:ZDe0h1jNRu/Rms5/0J7m8gZkC3ST4Dleg1hOahIi1TQ.: No such file or directory
+bash: Please: command not found
+bash: Add: command not found
+
+bash: Offending: command not found
+bash: Host: command not found
+
+bash: Host: command not found
+bash: Fjura@DESKTOP-IB10381: command not found
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$
+
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ ^C
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ nmap -sn 192.168.0.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-29 14:32 Pacific Daylight Time
+
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ nmap -sn 192.168.1.1/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-29 14:33 Pacific Daylight Time
+Nmap scan report for SAX1V1R.lan (192.168.1.1)
+Host is up (0.0019s latency).
+MAC Address: 14:7D:05:8F:2B:38 (Sercomm Philippines)
+Nmap scan report for 192.168.1.45
+Host is up (0.12s latency).
+MAC Address: DC:06:75:87:5B:0C (Unknown)
+Nmap scan report for Galaxy-Z-Fold4.lan (192.168.1.85)
+Host is up (0.11s latency).
+MAC Address: DE:44:F5:10:D9:AD (Unknown)
+Nmap scan report for A6408288.lan (192.168.1.98)
+Host is up (0.055s latency).
+MAC Address: F0:D4:15:FF:2F:85 (Intel Corporate)
+Nmap scan report for fjura.lan (192.168.1.117)
+Host is up (0.24s latency).
+MAC Address: 2C:CF:67:CE:5B:22 (Raspberry Pi (Trading))
+Nmap scan report for 192.168.1.133
+Host is up (0.17s latency).
+MAC Address: B8:78:26:3F:42:A7 (Nintendo)
+Nmap scan report for 192.168.1.144
+Host is up (0.11s latency).
+MAC Address: CE:95:DC:6B:51:F2 (Unknown)
+Nmap scan report for esp32s3-217024.lan (192.168.1.251)
+Host is up (0.21s latency).
+MAC Address: F0:9E:9E:21:70:24 (Unknown)
+Nmap scan report for host.docker.internal (192.168.1.31)
+Host is up.
+Nmap done: 256 IP addresses (9 hosts up) scanned in 4.04 seconds
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ ssh fjura@192.168.1.117
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-1077-raspi armv7l)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu May 29 14:33:23 PDT 2025
+
+  System load:            0.16
+  Usage of /:             50.0% of 6.71GB
+  Memory usage:           33%
+  Swap usage:             0%
+  Temperature:            44.0 C
+  Processes:              140
+  Users logged in:        0
+  IPv4 address for wlan0: 192.168.1.117
+  IPv6 address for wlan0: fd00:147d:58f:2b38:2ecf:67ff:fece:5b22
+  IPv6 address for wlan0: 2603:8000:8c00:2d25:2ecf:67ff:fece:5b22
+  IPv6 address for wlan0: 2603:8000:8c00:2d25::1bb4
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+57 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+Last login: Sat May 24 19:01:11 2025 from 192.168.1.31
+fjura@fjura:~$ cups start
+Command 'cups' not found, did you mean:
+  command 'cusp' from deb emboss (6.6.0+dfsg-11ubuntu1)
+  command 'cupp' from deb cupp (0.0+20190501.git986658-6)
+  command 'cup' from deb cup (0.11b-20160615-2)
+  command 'cupt' from deb cupt (2.10.4+nmu1build1)
+  command 'cgps' from deb gpsd-tools (3.22-4ubuntu2)
+  command 'cupsd' from deb cups-daemon (2.4.1op1-1ubuntu4.11)
+Try: sudo apt install <deb name>
+fjura@fjura:~$ sudo reboot
+Connection to 192.168.1.117 closed by remote host.
+Connection to 192.168.1.117 closed.
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ nmap -sn 192.168.1.1/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-29 20:10 Pacific Daylight Time
+Nmap scan report for SAX1V1R.lan (192.168.1.1)
+Host is up (0.0026s latency).
+MAC Address: 14:7D:05:8F:2B:38 (Sercomm Philippines)
+Nmap scan report for 192.168.1.45
+Host is up (0.20s latency).
+MAC Address: DC:06:75:87:5B:0C (Unknown)
+Nmap scan report for Galaxy-Z-Fold4.lan (192.168.1.85)
+Host is up (0.11s latency).
+MAC Address: DE:44:F5:10:D9:AD (Unknown)
+Nmap scan report for fjura.lan (192.168.1.117)
+Host is up (0.19s latency).
+MAC Address: 2C:CF:67:CE:5B:22 (Raspberry Pi (Trading))
+Nmap scan report for 192.168.1.133
+Host is up (0.13s latency).
+MAC Address: B8:78:26:3F:42:A7 (Nintendo)
+Nmap scan report for esp32s3-217024.lan (192.168.1.251)
+Host is up (0.24s latency).
+MAC Address: F0:9E:9E:21:70:24 (Unknown)
+Nmap scan report for host.docker.internal (192.168.1.31)
+Host is up.
+Nmap done: 256 IP addresses (7 hosts up) scanned in 4.43 seconds
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ ssh fjura@192.168.1.117
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-1078-raspi armv7l)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu May 29 20:11:19 PDT 2025
+
+  System load:            0.39
+  Usage of /:             50.2% of 6.71GB
+  Memory usage:           30%
+  Swap usage:             0%
+  Temperature:            38.1 C
+  Processes:              138
+  Users logged in:        0
+  IPv4 address for wlan0: 192.168.1.117
+  IPv6 address for wlan0: 2603:8000:8c00:2d25::1bb4
+  IPv6 address for wlan0: fd00:147d:58f:2b38:2ecf:67ff:fece:5b22
+  IPv6 address for wlan0: 2603:8000:8c00:2d25:2ecf:67ff:fece:5b22
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+57 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+New release '24.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Thu May 29 14:33:26 2025 from 192.168.1.31
+fjura@fjura:~$ client_loop: send disconnect: Connection reset by peer
+
+Fjura@DESKTOP-IB10381 MINGW64 ~
+$ ssh fjura@192.168.1.117
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-1078-raspi armv7l)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu May 29 21:03:24 PDT 2025
+
+  System load:            2.15
+  Usage of /:             50.7% of 6.71GB
+  Memory usage:           31%
+  Swap usage:             0%
+  Temperature:            46.2 C
+  Processes:              153
+  Users logged in:        0
+  IPv4 address for wlan0: 192.168.1.117
+  IPv6 address for wlan0: 2603:8000:8c00:2d25::1bb4
+  IPv6 address for wlan0: fd00:147d:58f:2b38:2ecf:67ff:fece:5b22
+  IPv6 address for wlan0: 2603:8000:8c00:2d25:2ecf:67ff:fece:5b22
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+57 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+New release '24.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Thu May 29 20:11:23 2025 from 192.168.1.31
+fjura@fjura:~$ ls
+workspace
+fjura@fjura:~$ ls /dev/ttyUSB*
+ls: cannot access '/dev/ttyUSB*': No such file or directory
+fjura@fjura:~$ ls /dev/ttyACM*
+ls: cannot access '/dev/ttyACM*': No such file or directory
+fjura@fjura:~$ lpstat -p
+lpstat: No destinations added.
+fjura@fjura:~$ lpinfo
+fjura@fjura:~$ lpinfo -v
+lpinfo: Forbidden
+fjura@fjura:~$ lsusb
+Bus 001 Device 002: ID 03f0:102a HP, Inc LaserJet Professional P 1102w
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+fjura@fjura:~$ systemctl start cyups
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+Authentication is required to start 'cyups.service'.
+Authenticating as: fjura
+Password:
+fjura@fjura:~$ systemctl start cups
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+Authentication is required to start 'cups.service'.
+Authenticating as: fjura
+Password:
+==== AUTHENTICATION COMPLETE ===
+fjura@fjura:~$ systemctl enable cups
+Synchronizing state of cups.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable cups
+==== AUTHENTICATING FOR org.freedesktop.systemd1.reload-daemon ===
+Authentication is required to reload the systemd state.
+Authenticating as: fjura
+Password:
+==== AUTHENTICATION COMPLETE ===
+==== AUTHENTICATING FOR org.freedesktop.systemd1.reload-daemon ===
+Authentication is required to reload the systemd state.
+Authenticating as: fjura
+Password:
+==== AUTHENTICATION COMPLETE ===
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-unit-files ===
+Authentication is required to manage system service or unit files.
+Authenticating as: fjura
+Password:
+==== AUTHENTICATION COMPLETE ===
+==== AUTHENTICATING FOR org.freedesktop.systemd1.reload-daemon ===
+Authentication is required to reload the systemd state.
+Authenticating as: fjura
+Password:
+==== AUTHENTICATION COMPLETE ===
+fjura@fjura:~$ sudo systemctl status cusp
+Unit cusp.service could not be found.
+fjura@fjura:~$ sudo systemctl status cups
+● cups.service - CUPS Scheduler
+     Loaded: loaded (/lib/systemd/system/cups.service; enabled; vendor preset: >
+     Active: active (running) since Thu 2025-05-29 21:01:18 PDT; 8min ago
+TriggeredBy: ● cups.path
+             ● cups.socket
+       Docs: man:cupsd(8)
+   Main PID: 681 (cupsd)
+     Status: "Scheduler is running..."
+      Tasks: 2 (limit: 784)
+     Memory: 7.5M
+        CPU: 210ms
+     CGroup: /system.slice/cups.service
+             ├─681 /usr/sbin/cupsd -l
+             └─735 /usr/lib/cups/notifier/dbus dbus:// ""
+
+May 29 21:01:16 fjura systemd[1]: Starting CUPS Scheduler...
+May 29 21:01:18 fjura systemd[1]: Started CUPS Scheduler.
+ ESCOC
+
+/cups.service; enabled; vendor preset: enabled)
+2025-05-29 21:01:18 PDT; 8min ago
+
+
+
+
+
+
+
+
+
+
+r/dbus dbus:// ""
+
+ng CUPS Scheduler...
+d CUPS Scheduler.
+~
+~
+~
+~
+~
+~
+ ESCOC
+
+nabled)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+~
+~
+~
+~
+~
+ ESCOD
+
+/cups.service; enabled; vendor preset: enabled)
+2025-05-29 21:01:18 PDT; 8min ago
+
+
+
+
+
+
+
+
+
+
+r/dbus dbus:// ""
+
+ng CUPS Scheduler...
+d CUPS Scheduler.
+~
+~
+~
+~
+~
+~
+ ESCOD
+● cups.service - CUPS Scheduler
+     Loaded: loaded (/lib/systemd/system/cups.service; enabled; vendor preset: >
+     Active: active (running) since Thu 2025-05-29 21:01:18 PDT; 8min ago
+TriggeredBy: ● cups.path
+             ● cups.socket
+       Docs: man:cupsd(8)
+   Main PID: 681 (cupsd)
+     Status: "Scheduler is running..."
+      Tasks: 2 (limit: 784)
+     Memory: 7.5M
+        CPU: 210ms
+     CGroup: /system.slice/cups.service
+             ├─681 /usr/sbin/cupsd -l
+             └─735 /usr/lib/cups/notifier/dbus dbus:// ""
+
+May 29 21:01:16 fjura systemd[1]: Starting CUPS Scheduler...
+May 29 21:01:18 fjura systemd[1]: Started CUPS Scheduler.
+~
+~
+~
+~
+~
+~
+ ESCOD
+● cups.service - CUPS Scheduler
+     Loaded: loaded (/lib/systemd/system/cups.service; enabled; vendor preset: >
+     Active: active (running) since Thu 2025-05-29 21:01:18 PDT; 8min ago
+TriggeredBy: ● cups.path
+             ● cups.socket
+       Docs: man:cupsd(8)
+   Main PID: 681 (cupsd)
+     Status: "Scheduler is running..."
+      Tasks: 2 (limit: 784)
+     Memory: 7.5M
+        CPU: 210ms
+     CGroup: /system.slice/cups.service
+             ├─681 /usr/sbin/cupsd -l
+             └─735 /usr/lib/cups/notifier/dbus dbus:// ""
+
+May 29 21:01:16 fjura systemd[1]: Starting CUPS Scheduler...
+May 29 21:01:18 fjura systemd[1]: Started CUPS Scheduler.
+~
+~
+~
+~
+~
+~
+
+fjura@fjura:~$ ip address
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 2c:cf:67:ce:5b:22 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.117/24 metric 600 brd 192.168.1.255 scope global dynamic wlan0
+       valid_lft 42658sec preferred_lft 42658sec
+    inet6 2603:8000:8c00:2d25::1bb4/128 scope global dynamic noprefixroute
+       valid_lft 604259sec preferred_lft 604259sec
+    inet6 fd00:147d:58f:2b38:2ecf:67ff:fece:5b22/64 scope global dynamic mngtmpaddr noprefixroute
+       valid_lft 604650sec preferred_lft 604650sec
+    inet6 2603:8000:8c00:2d25:2ecf:67ff:fece:5b22/64 scope global dynamic mngtmpaddr noprefixroute
+       valid_lft 604650sec preferred_lft 604650sec
+    inet6 fe80::2ecf:67ff:fece:5b22/64 scope link
+       valid_lft forever preferred_lft forever
+fjura@fjura:~$ vim /etc/cups/cupsd.conf
+fjura@fjura:~$ sudo vim /etc/cups/cupsd.conf
+fjura@fjura:~$ sudo systemctl restart cups
+fjura@fjura:~$ lpstat -p -d    # to verify printer name
+lpstat: No destinations added.
+no system default destination
+fjura@fjura:~$ sudo apt install hplip hplip-gui printer-driver-hpijs
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+hplip is already the newest version (3.21.12+dfsg0-1).
+printer-driver-hpijs is already the newest version (3.21.12+dfsg0-1).
+The following additional packages will be installed:
+  adwaita-icon-theme at-spi2-core firefox fontconfig gimp-data
+  gtk-update-icon-cache hicolor-icon-theme humanity-icon-theme libaacs0
+  libamd2 libaom3 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatspi2.0-0
+  libavcodec58 libavformat58 libavutil56 libbabl-0.1-0 libbdplus0 libblas3
+  libbluray2 libcairo-gobject2 libcamd2 libccolamd2 libcholmod3
+  libchromaprint1 libcodec2-1.0 libcolamd2 libdatrie1 libdav1d5
+  libdouble-conversion3 libdrm-amdgpu1 libdrm-nouveau2 libdrm-radeon1
+  libegl-mesa0 libegl1 libepoxy0 libevdev2 libexiv2-27 libgail-common
+  libgail18 libgbm1 libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin
+  libgdk-pixbuf2.0-common libgegl-0.4-0 libgegl-common libgexiv2-2
+  libgfortran5 libgimp2.0 libglapi-mesa libgles2 libglvnd0 libgme0 libgsm1
+  libgtk-3-0 libgtk-3-bin libgtk-3-common libgtk2.0-0 libgtk2.0-bin
+  libgtk2.0-common libice6 libilmbase25 libinput-bin libinput10 liblapack3
+  libllvm15 libmd4c0 libmetis5 libmp3lame0 libmpg123-0 libmtdev1 libnorm1
+  libogg0 libopenexr25 libopenmpt0 libopus0 libpango-1.0-0 libpangocairo-1.0-0
+  libpangoft2-1.0-0 libpcre2-16-0 libpgm-5.3-0 libqt5core5a libqt5dbus5
+  libqt5designer5 libqt5gui5 libqt5help5 libqt5network5 libqt5printsupport5
+  libqt5sql5 libqt5sql5-sqlite libqt5svg5 libqt5test5 libqt5widgets5
+  libqt5xml5 librabbitmq4 libraw20 librsvg2-2 librsvg2-common libshine3 libsm6
+  libsnappy1v5 libsoxr0 libspeex1 libsrt1.4-gnutls libssh-gcrypt-4
+  libsuitesparseconfig5 libswresample3 libswscale5 libthai-data libthai0
+  libtheora0 libtwolame0 libudfread0 libumfpack5 libva-drm2 libva-x11-2 libva2
+  libvdpau1 libvorbis0a libvorbisenc2 libvorbisfile3 libvpx7 libwacom-bin
+  libwacom-common libwacom9 libwayland-client0 libwayland-cursor0
+  libwayland-egl1 libwayland-server0 libx11-xcb1 libx264-163 libx265-199
+  libxcb-dri2-0 libxcb-dri3-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1
+  libxcb-present0 libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-sync1
+  libxcb-util1 libxcb-xfixes0 libxcb-xinerama0 libxcb-xinput0 libxcb-xkb1
+  libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1
+  libxkbcommon-x11-0 libxkbcommon0 libxrandr2 libxshmfence1 libxtst6
+  libxvidcore4 libzmq5 libzvbi-common libzvbi0 mesa-va-drivers
+  mesa-vdpau-drivers notification-daemon ocl-icd-libopencl1
+  python3-dbus.mainloop.pyqt5 python3-notify2 python3-pyqt5 python3-pyqt5.sip
+  qt5-gtk-platformtheme qttranslations5-l10n ubuntu-mono va-driver-all
+  vdpau-driver-all x11-common xsane xsane-common
+Suggested packages:
+  libbluray-bdj exiv2 graphviz gvfs opus-tools qt5-image-formats-plugins
+  qtwayland5 librsvg2-bin speex opencl-icd libvdpau-va-gl1 gimp gocr
+  | cuneiform | tesseract-ocr | ocrad gv hylafax-client | mgetty-fax
+The following NEW packages will be installed:
+  adwaita-icon-theme at-spi2-core firefox fontconfig gimp-data
+  gtk-update-icon-cache hicolor-icon-theme hplip-gui humanity-icon-theme
+  libaacs0 libamd2 libaom3 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data
+  libatspi2.0-0 libavcodec58 libavformat58 libavutil56 libbabl-0.1-0
+  libbdplus0 libblas3 libbluray2 libcairo-gobject2 libcamd2 libccolamd2
+  libcholmod3 libchromaprint1 libcodec2-1.0 libcolamd2 libdatrie1 libdav1d5
+  libdouble-conversion3 libdrm-amdgpu1 libdrm-nouveau2 libdrm-radeon1
+  libegl-mesa0 libegl1 libepoxy0 libevdev2 libexiv2-27 libgail-common
+  libgail18 libgbm1 libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin
+  libgdk-pixbuf2.0-common libgegl-0.4-0 libgegl-common libgexiv2-2
+  libgfortran5 libgimp2.0 libglapi-mesa libgles2 libglvnd0 libgme0 libgsm1
+  libgtk-3-0 libgtk-3-bin libgtk-3-common libgtk2.0-0 libgtk2.0-bin
+  libgtk2.0-common libice6 libilmbase25 libinput-bin libinput10 liblapack3
+  libllvm15 libmd4c0 libmetis5 libmp3lame0 libmpg123-0 libmtdev1 libnorm1
+  libogg0 libopenexr25 libopenmpt0 libopus0 libpango-1.0-0 libpangocairo-1.0-0
+  libpangoft2-1.0-0 libpcre2-16-0 libpgm-5.3-0 libqt5core5a libqt5dbus5
+  libqt5designer5 libqt5gui5 libqt5help5 libqt5network5 libqt5printsupport5
+  libqt5sql5 libqt5sql5-sqlite libqt5svg5 libqt5test5 libqt5widgets5
+  libqt5xml5 librabbitmq4 libraw20 librsvg2-2 librsvg2-common libshine3 libsm6
+  libsnappy1v5 libsoxr0 libspeex1 libsrt1.4-gnutls libssh-gcrypt-4
+  libsuitesparseconfig5 libswresample3 libswscale5 libthai-data libthai0
+  libtheora0 libtwolame0 libudfread0 libumfpack5 libva-drm2 libva-x11-2 libva2
+  libvdpau1 libvorbis0a libvorbisenc2 libvorbisfile3 libvpx7 libwacom-bin
+  libwacom-common libwacom9 libwayland-client0 libwayland-cursor0
+  libwayland-egl1 libwayland-server0 libx11-xcb1 libx264-163 libx265-199
+  libxcb-dri2-0 libxcb-dri3-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1
+  libxcb-present0 libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-sync1
+  libxcb-util1 libxcb-xfixes0 libxcb-xinerama0 libxcb-xinput0 libxcb-xkb1
+  libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1
+  libxkbcommon-x11-0 libxkbcommon0 libxrandr2 libxshmfence1 libxtst6
+  libxvidcore4 libzmq5 libzvbi-common libzvbi0 mesa-va-drivers
+  mesa-vdpau-drivers notification-daemon ocl-icd-libopencl1
+  python3-dbus.mainloop.pyqt5 python3-notify2 python3-pyqt5 python3-pyqt5.sip
+  qt5-gtk-platformtheme qttranslations5-l10n ubuntu-mono va-driver-all
+  vdpau-driver-all x11-common xsane xsane-common
+0 upgraded, 181 newly installed, 0 to remove and 56 not upgraded.
+Need to get 102 MB of archives.
+After this operation, 376 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf firefox armhf 1:1snap1-0ubuntu2 [72.3 kB]
+Get:2 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libdouble-conversion3 armhf 3.1.7-4 [37.5 kB]
+Get:3 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libpcre2-16-0 armhf 10.39-3ubuntu0.1 [174 kB]
+Get:4 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5core5a armhf 5.15.3+dfsg-2ubuntu0.2 [1727 kB]
+Get:5 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf fontconfig armhf 2.13.1-4.2ubuntu5 [182 kB]
+Get:6 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libglvnd0 armhf 1.4.0-1 [88.6 kB]
+Get:7 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libwayland-server0 armhf 1.20.0-1ubuntu0.1 [28.4 kB]
+Get:8 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-randr0 armhf 1.14-3ubuntu3 [17.1 kB]
+Get:9 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgbm1 armhf 23.2.1-1ubuntu3.1~22.04.3 [29.7 kB]
+Get:10 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libglapi-mesa armhf 23.2.1-1ubuntu3.1~22.04.3 [41.0 kB]
+Get:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libwayland-client0 armhf 1.20.0-1ubuntu0.1 [21.8 kB]
+Get:12 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libx11-xcb1 armhf 2:1.7.5-1ubuntu0.3 [7728 B]
+Get:13 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-dri2-0 armhf 1.14-3ubuntu3 [6870 B]
+Get:14 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-dri3-0 armhf 1.14-3ubuntu3 [6574 B]
+Get:15 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-present0 armhf 1.14-3ubuntu3 [5526 B]
+Get:16 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-sync1 armhf 1.14-3ubuntu3 [8780 B]
+Get:17 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-xfixes0 armhf 1.14-3ubuntu3 [9740 B]
+Get:18 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxshmfence1 armhf 1.3-1build4 [5080 B]
+Get:19 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libegl-mesa0 armhf 23.2.1-1ubuntu3.1~22.04.3 [97.2 kB]
+Get:20 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libegl1 armhf 1.4.0-1 [29.7 kB]
+Get:21 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libgles2 armhf 1.4.0-1 [19.1 kB]
+Get:22 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf x11-common all 1:7.7+23ubuntu2 [23.4 kB]
+Get:23 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libice6 armhf 2:1.0.10-1build2 [36.4 kB]
+Get:24 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libevdev2 armhf 1.12.1+dfsg-1 [30.5 kB]
+Get:25 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libmtdev1 armhf 1.1.6-1build4 [13.3 kB]
+Get:26 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libwacom-common all 2.2.0-1 [54.3 kB]
+Get:27 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libwacom9 armhf 2.2.0-1 [19.4 kB]
+Get:28 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libinput-bin armhf 1.20.0-1ubuntu0.3 [22.1 kB]
+Get:29 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libinput10 armhf 1.20.0-1ubuntu0.3 [115 kB]
+Get:30 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libmd4c0 armhf 0.4.8-1 [37.9 kB]
+Get:31 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5dbus5 armhf 5.15.3+dfsg-2ubuntu0.2 [200 kB]
+Get:32 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5network5 armhf 5.15.3+dfsg-2ubuntu0.2 [656 kB]
+Get:33 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libsm6 armhf 2:1.2.3-1build2 [15.1 kB]
+Get:34 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-icccm4 armhf 0.4.1-1.1build2 [10.1 kB]
+Get:35 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-util1 armhf 0.4.0-1build2 [9986 B]
+Get:36 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-image0 armhf 0.4.0-2 [10.1 kB]
+Get:37 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-keysyms1 armhf 0.4.0-1build3 [7958 B]
+Get:38 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-render-util0 armhf 0.3.9-1build3 [9258 B]
+Get:39 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-shape0 armhf 1.14-3ubuntu3 [6026 B]
+Get:40 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-xinerama0 armhf 1.14-3ubuntu3 [5234 B]
+Get:41 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-xinput0 armhf 1.14-3ubuntu3 [30.0 kB]
+Get:42 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcb-xkb1 armhf 1.14-3ubuntu3 [29.1 kB]
+Get:43 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxkbcommon0 armhf 1.4.0-1 [110 kB]
+Get:44 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxkbcommon-x11-0 armhf 1.4.0-1 [13.4 kB]
+Get:45 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5gui5 armhf 5.15.3+dfsg-2ubuntu0.2 [2939 kB]
+Get:46 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5widgets5 armhf 5.15.3+dfsg-2ubuntu0.2 [2263 kB]
+Get:47 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libqt5svg5 armhf 5.15.3-1 [129 kB]
+Get:48 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf hicolor-icon-theme all 0.17-2 [9976 B]
+Get:49 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgdk-pixbuf2.0-common all 2.42.8+dfsg-1ubuntu0.3 [5630 B]
+Get:50 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgdk-pixbuf-2.0-0 armhf 2.42.8+dfsg-1ubuntu0.3 [134 kB]
+Get:51 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf gtk-update-icon-cache armhf 3.24.33-1ubuntu2.2 [30.4 kB]
+Get:52 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf humanity-icon-theme all 0.6.16 [1282 kB]
+Get:53 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf ubuntu-mono all 20.10-0ubuntu2 [153 kB]
+Get:54 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf adwaita-icon-theme all 41.0-1ubuntu1 [3444 kB]
+Get:55 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxi6 armhf 2:1.8-1build1 [26.6 kB]
+Get:56 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libatspi2.0-0 armhf 2.44.0-3 [68.8 kB]
+Get:57 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxtst6 armhf 2:1.2.3-1build4 [11.3 kB]
+Get:58 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf at-spi2-core armhf 2.44.0-3 [50.2 kB]
+Get:59 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf gimp-data all 2.10.30-1ubuntu0.1 [7597 kB]
+Get:60 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf python3-dbus.mainloop.pyqt5 armhf 5.15.6+dfsg-1ubuntu3 [16.5 kB]
+Get:61 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf python3-pyqt5.sip armhf 12.9.1-1build1 [49.3 kB]
+Get:62 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5xml5 armhf 5.15.3+dfsg-2ubuntu0.2 [111 kB]
+Get:63 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libqt5designer5 armhf 5.15.3-1 [2729 kB]
+Get:64 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5sql5 armhf 5.15.3+dfsg-2ubuntu0.2 [110 kB]
+Get:65 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libqt5help5 armhf 5.15.3-1 [144 kB]
+Get:66 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5printsupport5 armhf 5.15.3+dfsg-2ubuntu0.2 [194 kB]
+Get:67 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5test5 armhf 5.15.3+dfsg-2ubuntu0.2 [136 kB]
+Get:68 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf python3-pyqt5 armhf 5.15.6+dfsg-1ubuntu3 [2238 kB]
+Get:69 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf hplip-gui all 3.21.12+dfsg0-1 [18.6 kB]
+Get:70 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libaacs0 armhf 0.11.1-1 [53.3 kB]
+Get:71 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libsuitesparseconfig5 armhf 1:5.10.1+dfsg-4build1 [9978 B]
+Get:72 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libamd2 armhf 1:5.10.1+dfsg-4build1 [15.0 kB]
+Get:73 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libaom3 armhf 3.3.0-1ubuntu0.1 [1419 kB]
+Get:74 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libatk1.0-data all 2.36.0-3build1 [2824 B]
+Get:75 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libatk1.0-0 armhf 2.36.0-3build1 [44.1 kB]
+Get:76 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libatk-bridge2.0-0 armhf 2.38.0-3 [57.6 kB]
+Get:77 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libva2 armhf 2.14.0-1 [60.7 kB]
+Get:78 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libva-drm2 armhf 2.14.0-1 [6574 B]
+Get:79 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxfixes3 armhf 1:6.0.0-1 [9682 B]
+Get:80 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libva-x11-2 armhf 2.14.0-1 [10.1 kB]
+Get:81 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libvdpau1 armhf 1.4-3build2 [26.3 kB]
+Get:82 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf ocl-icd-libopencl1 armhf 2.2.14-3 [34.8 kB]
+Get:83 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libavutil56 armhf 7:4.4.2-0ubuntu0.22.04.1 [283 kB]
+Get:84 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libcodec2-1.0 armhf 1.0.1-3 [8248 kB]
+Get:85 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libdav1d5 armhf 0.9.2-1 [287 kB]
+Get:86 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libgsm1 armhf 1.0.19-1 [24.3 kB]
+Get:87 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libmp3lame0 armhf 3.100-3build2 [128 kB]
+Get:88 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libopus0 armhf 1.3.1-0.1build2 [183 kB]
+Get:89 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libcairo-gobject2 armhf 1.16.0-5ubuntu2 [18.0 kB]
+Get:90 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libthai-data all 0.1.29-1build1 [162 kB]
+Get:91 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libdatrie1 armhf 0.2.13-2 [16.8 kB]
+Get:92 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libthai0 armhf 0.1.29-1build1 [15.8 kB]
+Get:93 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libpango-1.0-0 armhf 1.50.6+ds-2ubuntu1 [208 kB]
+Get:94 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libpangoft2-1.0-0 armhf 1.50.6+ds-2ubuntu1 [47.3 kB]
+Get:95 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libpangocairo-1.0-0 armhf 1.50.6+ds-2ubuntu1 [35.5 kB]
+Get:96 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf librsvg2-2 armhf 2.52.5+dfsg-3ubuntu0.2 [2606 kB]
+Get:97 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libshine3 armhf 3.1.1-2 [21.6 kB]
+Get:98 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libsnappy1v5 armhf 1.1.8-1build3 [14.9 kB]
+Get:99 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libspeex1 armhf 1.2~rc1.2-1.1ubuntu3 [47.9 kB]
+Get:100 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libsoxr0 armhf 0.1.3-4build2 [73.1 kB]
+Get:101 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libswresample3 armhf 7:4.4.2-0ubuntu0.22.04.1 [57.4 kB]
+Get:102 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libogg0 armhf 1.3.5-0ubuntu3 [20.6 kB]
+Get:103 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libtheora0 armhf 1.1.1+dfsg.1-15ubuntu4 [145 kB]
+Get:104 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libtwolame0 armhf 0.4.0-2build2 [48.5 kB]
+Get:105 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libvorbis0a armhf 1.3.7-1build2 [89.1 kB]
+Get:106 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libvorbisenc2 armhf 1.3.7-1build2 [77.1 kB]
+Get:107 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libvpx7 armhf 1.11.0-2ubuntu2.3 [1415 kB]
+Get:108 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libx264-163 armhf 2:0.163.3060+git5db6aa6-2build1 [464 kB]
+Get:109 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libx265-199 armhf 3.5-2 [631 kB]
+Get:110 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libxvidcore4 armhf 2:1.3.7-1 [162 kB]
+Get:111 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libzvbi-common all 0.2.35-19 [35.5 kB]
+Get:112 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libzvbi0 armhf 0.2.35-19 [233 kB]
+Get:113 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libavcodec58 armhf 7:4.4.2-0ubuntu0.22.04.1 [5105 kB]
+Get:114 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libudfread0 armhf 1.1.2-1 [14.0 kB]
+Get:115 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libbluray2 armhf 1:1.3.1-1 [129 kB]
+Get:116 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libchromaprint1 armhf 1.5.1-2 [31.8 kB]
+Get:117 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libgme0 armhf 0.6.3-2 [108 kB]
+Get:118 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libmpg123-0 armhf 1.29.3-1ubuntu0.1 [153 kB]
+Get:119 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libvorbisfile3 armhf 1.3.7-1build2 [16.3 kB]
+Get:120 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libopenmpt0 armhf 0.6.1-1 [642 kB]
+Get:121 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf librabbitmq4 armhf 0.10.0-1ubuntu2 [35.1 kB]
+Get:122 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libsrt1.4-gnutls armhf 1.4.4-4 [300 kB]
+Get:123 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libssh-gcrypt-4 armhf 0.9.6-2ubuntu0.22.04.3 [201 kB]
+Get:124 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libnorm1 armhf 1.5.9+dfsg-2 [185 kB]
+Get:125 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libpgm-5.3-0 armhf 5.3.128~dfsg-2 [155 kB]
+Get:126 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libzmq5 armhf 4.3.4-2 [261 kB]
+Get:127 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libavformat58 armhf 7:4.4.2-0ubuntu0.22.04.1 [1058 kB]
+Get:128 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libbabl-0.1-0 armhf 1:0.1.92-1 [310 kB]
+Get:129 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libbdplus0 armhf 0.2.0-1 [50.4 kB]
+Get:130 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libblas3 armhf 3.10.0-2ubuntu1 [118 kB]
+Get:131 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libcamd2 armhf 1:5.10.1+dfsg-4build1 [15.5 kB]
+Get:132 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libccolamd2 armhf 1:5.10.1+dfsg-4build1 [16.7 kB]
+Get:133 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libcolamd2 armhf 1:5.10.1+dfsg-4build1 [13.1 kB]
+Get:134 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgfortran5 armhf 12.3.0-1ubuntu1~22.04 [293 kB]
+Get:135 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf liblapack3 armhf 3.10.0-2ubuntu1 [1932 kB]
+Get:136 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libmetis5 armhf 5.1.0.dfsg-7build2 [146 kB]
+Get:137 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libcholmod3 armhf 1:5.10.1+dfsg-4build1 [233 kB]
+Get:138 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libdrm-amdgpu1 armhf 2.4.113-2~ubuntu0.22.04.1 [18.2 kB]
+Get:139 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libdrm-nouveau2 armhf 2.4.113-2~ubuntu0.22.04.1 [15.3 kB]
+Get:140 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libdrm-radeon1 armhf 2.4.113-2~ubuntu0.22.04.1 [18.6 kB]
+Get:141 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libepoxy0 armhf 1.5.10-1 [206 kB]
+Get:142 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libexiv2-27 armhf 0.27.5-3ubuntu1 [869 kB]
+Get:143 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgtk2.0-common all 2.24.33-2ubuntu2.1 [125 kB]
+Get:144 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcomposite1 armhf 1:0.4.5-1build2 [6520 B]
+Get:145 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxcursor1 armhf 1:1.2.0-2build4 [17.9 kB]
+Get:146 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxdamage1 armhf 1:1.1.5-2build2 [6320 B]
+Get:147 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxinerama1 armhf 2:1.1.4-3 [6686 B]
+Get:148 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libxrandr2 armhf 2:1.5.2-1build1 [16.4 kB]
+Get:149 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgtk2.0-0 armhf 2.24.33-2ubuntu2.1 [1747 kB]
+Get:150 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgail18 armhf 2.24.33-2ubuntu2.1 [13.7 kB]
+Get:151 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgail-common armhf 2.24.33-2ubuntu2.1 [104 kB]
+Get:152 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgdk-pixbuf2.0-bin armhf 2.42.8+dfsg-1ubuntu0.3 [13.4 kB]
+Get:153 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libilmbase25 armhf 2.5.7-2 [156 kB]
+Get:154 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libopenexr25 armhf 2.5.7-1 [715 kB]
+Get:155 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libraw20 armhf 0.20.2-2ubuntu2.22.04.2 [336 kB]
+Get:156 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libswscale5 armhf 7:4.4.2-0ubuntu0.22.04.1 [148 kB]
+Get:157 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libumfpack5 armhf 1:5.10.1+dfsg-4build1 [131 kB]
+Get:158 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libgegl-common all 1:0.4.34-1build1 [866 kB]
+Get:159 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf libgegl-0.4-0 armhf 1:0.4.34-1build1 [1298 kB]
+Get:160 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libgexiv2-2 armhf 0.14.0-1build1 [70.2 kB]
+Get:161 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libgimp2.0 armhf 2.10.30-1ubuntu0.1 [436 kB]
+Get:162 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libwayland-cursor0 armhf 1.20.0-1ubuntu0.1 [9968 B]
+Get:163 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libwayland-egl1 armhf 1.20.0-1ubuntu0.1 [5302 B]
+Get:164 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgtk-3-common all 3.24.33-1ubuntu2.2 [239 kB]
+Get:165 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgtk-3-0 armhf 3.24.33-1ubuntu2.2 [2717 kB]
+Get:166 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgtk-3-bin armhf 3.24.33-1ubuntu2.2 [66.2 kB]
+Get:167 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libgtk2.0-bin armhf 2.24.33-2ubuntu2.1 [7936 B]
+Get:168 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf libllvm15 armhf 1:15.0.7-0ubuntu0.22.04.3 [24.1 MB]
+Get:169 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf libqt5sql5-sqlite armhf 5.15.3+dfsg-2ubuntu0.2 [48.3 kB]
+Get:170 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf librsvg2-common armhf 2.52.5+dfsg-3ubuntu0.2 [17.1 kB]
+Get:171 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf libwacom-bin armhf 2.2.0-1 [12.6 kB]
+Get:172 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf mesa-va-drivers armhf 23.2.1-1ubuntu3.1~22.04.3 [3435 kB]
+Get:173 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main armhf mesa-vdpau-drivers armhf 23.2.1-1ubuntu3.1~22.04.3 [3425 kB]
+Get:174 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf notification-daemon armhf 3.20.0-4build1 [54.5 kB]
+Get:175 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf python3-notify2 all 0.3-4 [11.0 kB]
+Get:176 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe armhf qt5-gtk-platformtheme armhf 5.15.3+dfsg-2ubuntu0.2 [115 kB]
+Get:177 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf qttranslations5-l10n all 5.15.3-1 [1983 kB]
+Get:178 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf va-driver-all armhf 2.14.0-1 [3950 B]
+Get:179 http://ports.ubuntu.com/ubuntu-ports jammy/main armhf vdpau-driver-all armhf 1.4-3build2 [4510 B]
+Get:180 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf xsane-common all 0.999-11ubuntu1 [1377 kB]
+Get:181 http://ports.ubuntu.com/ubuntu-ports jammy/universe armhf xsane armhf 0.999-11ubuntu1 [426 kB]
+Fetched 102 MB in 56s (1845 kB/s)
+Extracting templates from packages: 100%
+Preconfiguring packages ...
+Selecting previously unselected package firefox.
+(Reading database ... 107314 files and directories currently installed.)
+Preparing to unpack .../000-firefox_1%3a1snap1-0ubuntu2_armhf.deb ...
+=> Installing the firefox snap
+==> Checking connectivity with the snap store
+==> Installing the firefox snap
+Automatically connect eligible plugs and slots of snap "firefox"               /
+firefox 139.0-2 from Mozilla✓ installed
+=> Snap installation complete
+Unpacking firefox (1:1snap1-0ubuntu2) ...
+Selecting previously unselected package libdouble-conversion3:armhf.
+Preparing to unpack .../001-libdouble-conversion3_3.1.7-4_armhf.deb ...
+Unpacking libdouble-conversion3:armhf (3.1.7-4) ...
+Selecting previously unselected package libpcre2-16-0:armhf.
+Preparing to unpack .../002-libpcre2-16-0_10.39-3ubuntu0.1_armhf.deb ...
+Unpacking libpcre2-16-0:armhf (10.39-3ubuntu0.1) ...
+Selecting previously unselected package libqt5core5a:armhf.
+Preparing to unpack .../003-libqt5core5a_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5core5a:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package fontconfig.
+Preparing to unpack .../004-fontconfig_2.13.1-4.2ubuntu5_armhf.deb ...
+Unpacking fontconfig (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package libglvnd0:armhf.
+Preparing to unpack .../005-libglvnd0_1.4.0-1_armhf.deb ...
+Unpacking libglvnd0:armhf (1.4.0-1) ...
+Selecting previously unselected package libwayland-server0:armhf.
+Preparing to unpack .../006-libwayland-server0_1.20.0-1ubuntu0.1_armhf.deb ...
+Unpacking libwayland-server0:armhf (1.20.0-1ubuntu0.1) ...
+Selecting previously unselected package libxcb-randr0:armhf.
+Preparing to unpack .../007-libxcb-randr0_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-randr0:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libgbm1:armhf.
+Preparing to unpack .../008-libgbm1_23.2.1-1ubuntu3.1~22.04.3_armhf.deb ...
+Unpacking libgbm1:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Selecting previously unselected package libglapi-mesa:armhf.
+Preparing to unpack .../009-libglapi-mesa_23.2.1-1ubuntu3.1~22.04.3_armhf.deb ...
+Unpacking libglapi-mesa:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Selecting previously unselected package libwayland-client0:armhf.
+Preparing to unpack .../010-libwayland-client0_1.20.0-1ubuntu0.1_armhf.deb ...
+Unpacking libwayland-client0:armhf (1.20.0-1ubuntu0.1) ...
+Selecting previously unselected package libx11-xcb1:armhf.
+Preparing to unpack .../011-libx11-xcb1_2%3a1.7.5-1ubuntu0.3_armhf.deb ...
+Unpacking libx11-xcb1:armhf (2:1.7.5-1ubuntu0.3) ...
+Selecting previously unselected package libxcb-dri2-0:armhf.
+Preparing to unpack .../012-libxcb-dri2-0_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-dri2-0:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libxcb-dri3-0:armhf.
+Preparing to unpack .../013-libxcb-dri3-0_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-dri3-0:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libxcb-present0:armhf.
+Preparing to unpack .../014-libxcb-present0_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-present0:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libxcb-sync1:armhf.
+Preparing to unpack .../015-libxcb-sync1_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-sync1:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libxcb-xfixes0:armhf.
+Preparing to unpack .../016-libxcb-xfixes0_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-xfixes0:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libxshmfence1:armhf.
+Preparing to unpack .../017-libxshmfence1_1.3-1build4_armhf.deb ...
+Unpacking libxshmfence1:armhf (1.3-1build4) ...
+Selecting previously unselected package libegl-mesa0:armhf.
+Preparing to unpack .../018-libegl-mesa0_23.2.1-1ubuntu3.1~22.04.3_armhf.deb ...
+Unpacking libegl-mesa0:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Selecting previously unselected package libegl1:armhf.
+Preparing to unpack .../019-libegl1_1.4.0-1_armhf.deb ...
+Unpacking libegl1:armhf (1.4.0-1) ...
+Selecting previously unselected package libgles2:armhf.
+Preparing to unpack .../020-libgles2_1.4.0-1_armhf.deb ...
+Unpacking libgles2:armhf (1.4.0-1) ...
+Selecting previously unselected package x11-common.
+Preparing to unpack .../021-x11-common_1%3a7.7+23ubuntu2_all.deb ...
+Unpacking x11-common (1:7.7+23ubuntu2) ...
+Selecting previously unselected package libice6:armhf.
+Preparing to unpack .../022-libice6_2%3a1.0.10-1build2_armhf.deb ...
+Unpacking libice6:armhf (2:1.0.10-1build2) ...
+Selecting previously unselected package libevdev2:armhf.
+Preparing to unpack .../023-libevdev2_1.12.1+dfsg-1_armhf.deb ...
+Unpacking libevdev2:armhf (1.12.1+dfsg-1) ...
+Selecting previously unselected package libmtdev1:armhf.
+Preparing to unpack .../024-libmtdev1_1.1.6-1build4_armhf.deb ...
+Unpacking libmtdev1:armhf (1.1.6-1build4) ...
+Selecting previously unselected package libwacom-common.
+Preparing to unpack .../025-libwacom-common_2.2.0-1_all.deb ...
+Unpacking libwacom-common (2.2.0-1) ...
+Selecting previously unselected package libwacom9:armhf.
+Preparing to unpack .../026-libwacom9_2.2.0-1_armhf.deb ...
+Unpacking libwacom9:armhf (2.2.0-1) ...
+Selecting previously unselected package libinput-bin.
+Preparing to unpack .../027-libinput-bin_1.20.0-1ubuntu0.3_armhf.deb ...
+Unpacking libinput-bin (1.20.0-1ubuntu0.3) ...
+Selecting previously unselected package libinput10:armhf.
+Preparing to unpack .../028-libinput10_1.20.0-1ubuntu0.3_armhf.deb ...
+Unpacking libinput10:armhf (1.20.0-1ubuntu0.3) ...
+Selecting previously unselected package libmd4c0:armhf.
+Preparing to unpack .../029-libmd4c0_0.4.8-1_armhf.deb ...
+Unpacking libmd4c0:armhf (0.4.8-1) ...
+Selecting previously unselected package libqt5dbus5:armhf.
+Preparing to unpack .../030-libqt5dbus5_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5dbus5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package libqt5network5:armhf.
+Preparing to unpack .../031-libqt5network5_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5network5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package libsm6:armhf.
+Preparing to unpack .../032-libsm6_2%3a1.2.3-1build2_armhf.deb ...
+Unpacking libsm6:armhf (2:1.2.3-1build2) ...
+Selecting previously unselected package libxcb-icccm4:armhf.
+Preparing to unpack .../033-libxcb-icccm4_0.4.1-1.1build2_armhf.deb ...
+Unpacking libxcb-icccm4:armhf (0.4.1-1.1build2) ...
+Selecting previously unselected package libxcb-util1:armhf.
+Preparing to unpack .../034-libxcb-util1_0.4.0-1build2_armhf.deb ...
+Unpacking libxcb-util1:armhf (0.4.0-1build2) ...
+Selecting previously unselected package libxcb-image0:armhf.
+Preparing to unpack .../035-libxcb-image0_0.4.0-2_armhf.deb ...
+Unpacking libxcb-image0:armhf (0.4.0-2) ...
+Selecting previously unselected package libxcb-keysyms1:armhf.
+Preparing to unpack .../036-libxcb-keysyms1_0.4.0-1build3_armhf.deb ...
+Unpacking libxcb-keysyms1:armhf (0.4.0-1build3) ...
+Selecting previously unselected package libxcb-render-util0:armhf.
+Preparing to unpack .../037-libxcb-render-util0_0.3.9-1build3_armhf.deb ...
+Unpacking libxcb-render-util0:armhf (0.3.9-1build3) ...
+Selecting previously unselected package libxcb-shape0:armhf.
+Preparing to unpack .../038-libxcb-shape0_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-shape0:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libxcb-xinerama0:armhf.
+Preparing to unpack .../039-libxcb-xinerama0_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-xinerama0:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libxcb-xinput0:armhf.
+Preparing to unpack .../040-libxcb-xinput0_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-xinput0:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libxcb-xkb1:armhf.
+Preparing to unpack .../041-libxcb-xkb1_1.14-3ubuntu3_armhf.deb ...
+Unpacking libxcb-xkb1:armhf (1.14-3ubuntu3) ...
+Selecting previously unselected package libxkbcommon0:armhf.
+Preparing to unpack .../042-libxkbcommon0_1.4.0-1_armhf.deb ...
+Unpacking libxkbcommon0:armhf (1.4.0-1) ...
+Selecting previously unselected package libxkbcommon-x11-0:armhf.
+Preparing to unpack .../043-libxkbcommon-x11-0_1.4.0-1_armhf.deb ...
+Unpacking libxkbcommon-x11-0:armhf (1.4.0-1) ...
+Selecting previously unselected package libqt5gui5:armhf.
+Preparing to unpack .../044-libqt5gui5_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5gui5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package libqt5widgets5:armhf.
+Preparing to unpack .../045-libqt5widgets5_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5widgets5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package libqt5svg5:armhf.
+Preparing to unpack .../046-libqt5svg5_5.15.3-1_armhf.deb ...
+Unpacking libqt5svg5:armhf (5.15.3-1) ...
+Selecting previously unselected package hicolor-icon-theme.
+Preparing to unpack .../047-hicolor-icon-theme_0.17-2_all.deb ...
+Unpacking hicolor-icon-theme (0.17-2) ...
+Selecting previously unselected package libgdk-pixbuf2.0-common.
+Preparing to unpack .../048-libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.3_all.deb ...
+Unpacking libgdk-pixbuf2.0-common (2.42.8+dfsg-1ubuntu0.3) ...
+Selecting previously unselected package libgdk-pixbuf-2.0-0:armhf.
+Preparing to unpack .../049-libgdk-pixbuf-2.0-0_2.42.8+dfsg-1ubuntu0.3_armhf.deb ...
+Unpacking libgdk-pixbuf-2.0-0:armhf (2.42.8+dfsg-1ubuntu0.3) ...
+Selecting previously unselected package gtk-update-icon-cache.
+Preparing to unpack .../050-gtk-update-icon-cache_3.24.33-1ubuntu2.2_armhf.deb ...
+Unpacking gtk-update-icon-cache (3.24.33-1ubuntu2.2) ...
+Selecting previously unselected package humanity-icon-theme.
+Preparing to unpack .../051-humanity-icon-theme_0.6.16_all.deb ...
+Unpacking humanity-icon-theme (0.6.16) ...
+Selecting previously unselected package ubuntu-mono.
+Preparing to unpack .../052-ubuntu-mono_20.10-0ubuntu2_all.deb ...
+Unpacking ubuntu-mono (20.10-0ubuntu2) ...
+Selecting previously unselected package adwaita-icon-theme.
+Preparing to unpack .../053-adwaita-icon-theme_41.0-1ubuntu1_all.deb ...
+Unpacking adwaita-icon-theme (41.0-1ubuntu1) ...
+Selecting previously unselected package libxi6:armhf.
+Preparing to unpack .../054-libxi6_2%3a1.8-1build1_armhf.deb ...
+Unpacking libxi6:armhf (2:1.8-1build1) ...
+Selecting previously unselected package libatspi2.0-0:armhf.
+Preparing to unpack .../055-libatspi2.0-0_2.44.0-3_armhf.deb ...
+Unpacking libatspi2.0-0:armhf (2.44.0-3) ...
+Selecting previously unselected package libxtst6:armhf.
+Preparing to unpack .../056-libxtst6_2%3a1.2.3-1build4_armhf.deb ...
+Unpacking libxtst6:armhf (2:1.2.3-1build4) ...
+Selecting previously unselected package at-spi2-core.
+Preparing to unpack .../057-at-spi2-core_2.44.0-3_armhf.deb ...
+Unpacking at-spi2-core (2.44.0-3) ...
+Selecting previously unselected package gimp-data.
+Preparing to unpack .../058-gimp-data_2.10.30-1ubuntu0.1_all.deb ...
+Unpacking gimp-data (2.10.30-1ubuntu0.1) ...
+Selecting previously unselected package python3-dbus.mainloop.pyqt5.
+Preparing to unpack .../059-python3-dbus.mainloop.pyqt5_5.15.6+dfsg-1ubuntu3_armhf.deb ...
+Unpacking python3-dbus.mainloop.pyqt5 (5.15.6+dfsg-1ubuntu3) ...
+Selecting previously unselected package python3-pyqt5.sip.
+Preparing to unpack .../060-python3-pyqt5.sip_12.9.1-1build1_armhf.deb ...
+Unpacking python3-pyqt5.sip (12.9.1-1build1) ...
+Selecting previously unselected package libqt5xml5:armhf.
+Preparing to unpack .../061-libqt5xml5_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5xml5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package libqt5designer5:armhf.
+Preparing to unpack .../062-libqt5designer5_5.15.3-1_armhf.deb ...
+Unpacking libqt5designer5:armhf (5.15.3-1) ...
+Selecting previously unselected package libqt5sql5:armhf.
+Preparing to unpack .../063-libqt5sql5_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5sql5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package libqt5help5:armhf.
+Preparing to unpack .../064-libqt5help5_5.15.3-1_armhf.deb ...
+Unpacking libqt5help5:armhf (5.15.3-1) ...
+Selecting previously unselected package libqt5printsupport5:armhf.
+Preparing to unpack .../065-libqt5printsupport5_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5printsupport5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package libqt5test5:armhf.
+Preparing to unpack .../066-libqt5test5_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5test5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package python3-pyqt5.
+Preparing to unpack .../067-python3-pyqt5_5.15.6+dfsg-1ubuntu3_armhf.deb ...
+Unpacking python3-pyqt5 (5.15.6+dfsg-1ubuntu3) ...
+Selecting previously unselected package hplip-gui.
+Preparing to unpack .../068-hplip-gui_3.21.12+dfsg0-1_all.deb ...
+Unpacking hplip-gui (3.21.12+dfsg0-1) ...
+Selecting previously unselected package libaacs0:armhf.
+Preparing to unpack .../069-libaacs0_0.11.1-1_armhf.deb ...
+Unpacking libaacs0:armhf (0.11.1-1) ...
+Selecting previously unselected package libsuitesparseconfig5:armhf.
+Preparing to unpack .../070-libsuitesparseconfig5_1%3a5.10.1+dfsg-4build1_armhf.deb ...
+Unpacking libsuitesparseconfig5:armhf (1:5.10.1+dfsg-4build1) ...
+Selecting previously unselected package libamd2:armhf.
+Preparing to unpack .../071-libamd2_1%3a5.10.1+dfsg-4build1_armhf.deb ...
+Unpacking libamd2:armhf (1:5.10.1+dfsg-4build1) ...
+Selecting previously unselected package libaom3:armhf.
+Preparing to unpack .../072-libaom3_3.3.0-1ubuntu0.1_armhf.deb ...
+Unpacking libaom3:armhf (3.3.0-1ubuntu0.1) ...
+Selecting previously unselected package libatk1.0-data.
+Preparing to unpack .../073-libatk1.0-data_2.36.0-3build1_all.deb ...
+Unpacking libatk1.0-data (2.36.0-3build1) ...
+Selecting previously unselected package libatk1.0-0:armhf.
+Preparing to unpack .../074-libatk1.0-0_2.36.0-3build1_armhf.deb ...
+Unpacking libatk1.0-0:armhf (2.36.0-3build1) ...
+Selecting previously unselected package libatk-bridge2.0-0:armhf.
+Preparing to unpack .../075-libatk-bridge2.0-0_2.38.0-3_armhf.deb ...
+Unpacking libatk-bridge2.0-0:armhf (2.38.0-3) ...
+Selecting previously unselected package libva2:armhf.
+Preparing to unpack .../076-libva2_2.14.0-1_armhf.deb ...
+Unpacking libva2:armhf (2.14.0-1) ...
+Selecting previously unselected package libva-drm2:armhf.
+Preparing to unpack .../077-libva-drm2_2.14.0-1_armhf.deb ...
+Unpacking libva-drm2:armhf (2.14.0-1) ...
+Selecting previously unselected package libxfixes3:armhf.
+Preparing to unpack .../078-libxfixes3_1%3a6.0.0-1_armhf.deb ...
+Unpacking libxfixes3:armhf (1:6.0.0-1) ...
+Selecting previously unselected package libva-x11-2:armhf.
+Preparing to unpack .../079-libva-x11-2_2.14.0-1_armhf.deb ...
+Unpacking libva-x11-2:armhf (2.14.0-1) ...
+Selecting previously unselected package libvdpau1:armhf.
+Preparing to unpack .../080-libvdpau1_1.4-3build2_armhf.deb ...
+Unpacking libvdpau1:armhf (1.4-3build2) ...
+Selecting previously unselected package ocl-icd-libopencl1:armhf.
+Preparing to unpack .../081-ocl-icd-libopencl1_2.2.14-3_armhf.deb ...
+Unpacking ocl-icd-libopencl1:armhf (2.2.14-3) ...
+Selecting previously unselected package libavutil56:armhf.
+Preparing to unpack .../082-libavutil56_7%3a4.4.2-0ubuntu0.22.04.1_armhf.deb ...
+Unpacking libavutil56:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libcodec2-1.0:armhf.
+Preparing to unpack .../083-libcodec2-1.0_1.0.1-3_armhf.deb ...
+Unpacking libcodec2-1.0:armhf (1.0.1-3) ...
+Selecting previously unselected package libdav1d5:armhf.
+Preparing to unpack .../084-libdav1d5_0.9.2-1_armhf.deb ...
+Unpacking libdav1d5:armhf (0.9.2-1) ...
+Selecting previously unselected package libgsm1:armhf.
+Preparing to unpack .../085-libgsm1_1.0.19-1_armhf.deb ...
+Unpacking libgsm1:armhf (1.0.19-1) ...
+Selecting previously unselected package libmp3lame0:armhf.
+Preparing to unpack .../086-libmp3lame0_3.100-3build2_armhf.deb ...
+Unpacking libmp3lame0:armhf (3.100-3build2) ...
+Selecting previously unselected package libopus0:armhf.
+Preparing to unpack .../087-libopus0_1.3.1-0.1build2_armhf.deb ...
+Unpacking libopus0:armhf (1.3.1-0.1build2) ...
+Selecting previously unselected package libcairo-gobject2:armhf.
+Preparing to unpack .../088-libcairo-gobject2_1.16.0-5ubuntu2_armhf.deb ...
+Unpacking libcairo-gobject2:armhf (1.16.0-5ubuntu2) ...
+Selecting previously unselected package libthai-data.
+Preparing to unpack .../089-libthai-data_0.1.29-1build1_all.deb ...
+Unpacking libthai-data (0.1.29-1build1) ...
+Selecting previously unselected package libdatrie1:armhf.
+Preparing to unpack .../090-libdatrie1_0.2.13-2_armhf.deb ...
+Unpacking libdatrie1:armhf (0.2.13-2) ...
+Selecting previously unselected package libthai0:armhf.
+Preparing to unpack .../091-libthai0_0.1.29-1build1_armhf.deb ...
+Unpacking libthai0:armhf (0.1.29-1build1) ...
+Selecting previously unselected package libpango-1.0-0:armhf.
+Preparing to unpack .../092-libpango-1.0-0_1.50.6+ds-2ubuntu1_armhf.deb ...
+Unpacking libpango-1.0-0:armhf (1.50.6+ds-2ubuntu1) ...
+Selecting previously unselected package libpangoft2-1.0-0:armhf.
+Preparing to unpack .../093-libpangoft2-1.0-0_1.50.6+ds-2ubuntu1_armhf.deb ...
+Unpacking libpangoft2-1.0-0:armhf (1.50.6+ds-2ubuntu1) ...
+Selecting previously unselected package libpangocairo-1.0-0:armhf.
+Preparing to unpack .../094-libpangocairo-1.0-0_1.50.6+ds-2ubuntu1_armhf.deb ...
+Unpacking libpangocairo-1.0-0:armhf (1.50.6+ds-2ubuntu1) ...
+Selecting previously unselected package librsvg2-2:armhf.
+Preparing to unpack .../095-librsvg2-2_2.52.5+dfsg-3ubuntu0.2_armhf.deb ...
+Unpacking librsvg2-2:armhf (2.52.5+dfsg-3ubuntu0.2) ...
+Selecting previously unselected package libshine3:armhf.
+Preparing to unpack .../096-libshine3_3.1.1-2_armhf.deb ...
+Unpacking libshine3:armhf (3.1.1-2) ...
+Selecting previously unselected package libsnappy1v5:armhf.
+Preparing to unpack .../097-libsnappy1v5_1.1.8-1build3_armhf.deb ...
+Unpacking libsnappy1v5:armhf (1.1.8-1build3) ...
+Selecting previously unselected package libspeex1:armhf.
+Preparing to unpack .../098-libspeex1_1.2~rc1.2-1.1ubuntu3_armhf.deb ...
+Unpacking libspeex1:armhf (1.2~rc1.2-1.1ubuntu3) ...
+Selecting previously unselected package libsoxr0:armhf.
+Preparing to unpack .../099-libsoxr0_0.1.3-4build2_armhf.deb ...
+Unpacking libsoxr0:armhf (0.1.3-4build2) ...
+Selecting previously unselected package libswresample3:armhf.
+Preparing to unpack .../100-libswresample3_7%3a4.4.2-0ubuntu0.22.04.1_armhf.deb ...
+Unpacking libswresample3:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libogg0:armhf.
+Preparing to unpack .../101-libogg0_1.3.5-0ubuntu3_armhf.deb ...
+Unpacking libogg0:armhf (1.3.5-0ubuntu3) ...
+Selecting previously unselected package libtheora0:armhf.
+Preparing to unpack .../102-libtheora0_1.1.1+dfsg.1-15ubuntu4_armhf.deb ...
+Unpacking libtheora0:armhf (1.1.1+dfsg.1-15ubuntu4) ...
+Selecting previously unselected package libtwolame0:armhf.
+Preparing to unpack .../103-libtwolame0_0.4.0-2build2_armhf.deb ...
+Unpacking libtwolame0:armhf (0.4.0-2build2) ...
+Selecting previously unselected package libvorbis0a:armhf.
+Preparing to unpack .../104-libvorbis0a_1.3.7-1build2_armhf.deb ...
+Unpacking libvorbis0a:armhf (1.3.7-1build2) ...
+Selecting previously unselected package libvorbisenc2:armhf.
+Preparing to unpack .../105-libvorbisenc2_1.3.7-1build2_armhf.deb ...
+Unpacking libvorbisenc2:armhf (1.3.7-1build2) ...
+Selecting previously unselected package libvpx7:armhf.
+Preparing to unpack .../106-libvpx7_1.11.0-2ubuntu2.3_armhf.deb ...
+Unpacking libvpx7:armhf (1.11.0-2ubuntu2.3) ...
+Selecting previously unselected package libx264-163:armhf.
+Preparing to unpack .../107-libx264-163_2%3a0.163.3060+git5db6aa6-2build1_armhf.deb ...
+Unpacking libx264-163:armhf (2:0.163.3060+git5db6aa6-2build1) ...
+Selecting previously unselected package libx265-199:armhf.
+Preparing to unpack .../108-libx265-199_3.5-2_armhf.deb ...
+Unpacking libx265-199:armhf (3.5-2) ...
+Selecting previously unselected package libxvidcore4:armhf.
+Preparing to unpack .../109-libxvidcore4_2%3a1.3.7-1_armhf.deb ...
+Unpacking libxvidcore4:armhf (2:1.3.7-1) ...
+Selecting previously unselected package libzvbi-common.
+Preparing to unpack .../110-libzvbi-common_0.2.35-19_all.deb ...
+Unpacking libzvbi-common (0.2.35-19) ...
+Selecting previously unselected package libzvbi0:armhf.
+Preparing to unpack .../111-libzvbi0_0.2.35-19_armhf.deb ...
+Unpacking libzvbi0:armhf (0.2.35-19) ...
+Selecting previously unselected package libavcodec58:armhf.
+Preparing to unpack .../112-libavcodec58_7%3a4.4.2-0ubuntu0.22.04.1_armhf.deb ...
+Unpacking libavcodec58:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libudfread0:armhf.
+Preparing to unpack .../113-libudfread0_1.1.2-1_armhf.deb ...
+Unpacking libudfread0:armhf (1.1.2-1) ...
+Selecting previously unselected package libbluray2:armhf.
+Preparing to unpack .../114-libbluray2_1%3a1.3.1-1_armhf.deb ...
+Unpacking libbluray2:armhf (1:1.3.1-1) ...
+Selecting previously unselected package libchromaprint1:armhf.
+Preparing to unpack .../115-libchromaprint1_1.5.1-2_armhf.deb ...
+Unpacking libchromaprint1:armhf (1.5.1-2) ...
+Selecting previously unselected package libgme0:armhf.
+Preparing to unpack .../116-libgme0_0.6.3-2_armhf.deb ...
+Unpacking libgme0:armhf (0.6.3-2) ...
+Selecting previously unselected package libmpg123-0:armhf.
+Preparing to unpack .../117-libmpg123-0_1.29.3-1ubuntu0.1_armhf.deb ...
+Unpacking libmpg123-0:armhf (1.29.3-1ubuntu0.1) ...
+Selecting previously unselected package libvorbisfile3:armhf.
+Preparing to unpack .../118-libvorbisfile3_1.3.7-1build2_armhf.deb ...
+Unpacking libvorbisfile3:armhf (1.3.7-1build2) ...
+Selecting previously unselected package libopenmpt0:armhf.
+Preparing to unpack .../119-libopenmpt0_0.6.1-1_armhf.deb ...
+Unpacking libopenmpt0:armhf (0.6.1-1) ...
+Selecting previously unselected package librabbitmq4:armhf.
+Preparing to unpack .../120-librabbitmq4_0.10.0-1ubuntu2_armhf.deb ...
+Unpacking librabbitmq4:armhf (0.10.0-1ubuntu2) ...
+Selecting previously unselected package libsrt1.4-gnutls:armhf.
+Preparing to unpack .../121-libsrt1.4-gnutls_1.4.4-4_armhf.deb ...
+Unpacking libsrt1.4-gnutls:armhf (1.4.4-4) ...
+Selecting previously unselected package libssh-gcrypt-4:armhf.
+Preparing to unpack .../122-libssh-gcrypt-4_0.9.6-2ubuntu0.22.04.3_armhf.deb ...
+Unpacking libssh-gcrypt-4:armhf (0.9.6-2ubuntu0.22.04.3) ...
+Selecting previously unselected package libnorm1:armhf.
+Preparing to unpack .../123-libnorm1_1.5.9+dfsg-2_armhf.deb ...
+Unpacking libnorm1:armhf (1.5.9+dfsg-2) ...
+Selecting previously unselected package libpgm-5.3-0:armhf.
+Preparing to unpack .../124-libpgm-5.3-0_5.3.128~dfsg-2_armhf.deb ...
+Unpacking libpgm-5.3-0:armhf (5.3.128~dfsg-2) ...
+Selecting previously unselected package libzmq5:armhf.
+Preparing to unpack .../125-libzmq5_4.3.4-2_armhf.deb ...
+Unpacking libzmq5:armhf (4.3.4-2) ...
+Selecting previously unselected package libavformat58:armhf.
+Preparing to unpack .../126-libavformat58_7%3a4.4.2-0ubuntu0.22.04.1_armhf.deb ...
+Unpacking libavformat58:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libbabl-0.1-0:armhf.
+Preparing to unpack .../127-libbabl-0.1-0_1%3a0.1.92-1_armhf.deb ...
+Unpacking libbabl-0.1-0:armhf (1:0.1.92-1) ...
+Selecting previously unselected package libbdplus0:armhf.
+Preparing to unpack .../128-libbdplus0_0.2.0-1_armhf.deb ...
+Unpacking libbdplus0:armhf (0.2.0-1) ...
+Selecting previously unselected package libblas3:armhf.
+Preparing to unpack .../129-libblas3_3.10.0-2ubuntu1_armhf.deb ...
+Unpacking libblas3:armhf (3.10.0-2ubuntu1) ...
+Selecting previously unselected package libcamd2:armhf.
+Preparing to unpack .../130-libcamd2_1%3a5.10.1+dfsg-4build1_armhf.deb ...
+Unpacking libcamd2:armhf (1:5.10.1+dfsg-4build1) ...
+Selecting previously unselected package libccolamd2:armhf.
+Preparing to unpack .../131-libccolamd2_1%3a5.10.1+dfsg-4build1_armhf.deb ...
+Unpacking libccolamd2:armhf (1:5.10.1+dfsg-4build1) ...
+Selecting previously unselected package libcolamd2:armhf.
+Preparing to unpack .../132-libcolamd2_1%3a5.10.1+dfsg-4build1_armhf.deb ...
+Unpacking libcolamd2:armhf (1:5.10.1+dfsg-4build1) ...
+Selecting previously unselected package libgfortran5:armhf.
+Preparing to unpack .../133-libgfortran5_12.3.0-1ubuntu1~22.04_armhf.deb ...
+Unpacking libgfortran5:armhf (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package liblapack3:armhf.
+Preparing to unpack .../134-liblapack3_3.10.0-2ubuntu1_armhf.deb ...
+Unpacking liblapack3:armhf (3.10.0-2ubuntu1) ...
+Selecting previously unselected package libmetis5:armhf.
+Preparing to unpack .../135-libmetis5_5.1.0.dfsg-7build2_armhf.deb ...
+Unpacking libmetis5:armhf (5.1.0.dfsg-7build2) ...
+Selecting previously unselected package libcholmod3:armhf.
+Preparing to unpack .../136-libcholmod3_1%3a5.10.1+dfsg-4build1_armhf.deb ...
+Unpacking libcholmod3:armhf (1:5.10.1+dfsg-4build1) ...
+Selecting previously unselected package libdrm-amdgpu1:armhf.
+Preparing to unpack .../137-libdrm-amdgpu1_2.4.113-2~ubuntu0.22.04.1_armhf.deb ...
+Unpacking libdrm-amdgpu1:armhf (2.4.113-2~ubuntu0.22.04.1) ...
+Selecting previously unselected package libdrm-nouveau2:armhf.
+Preparing to unpack .../138-libdrm-nouveau2_2.4.113-2~ubuntu0.22.04.1_armhf.deb ...
+Unpacking libdrm-nouveau2:armhf (2.4.113-2~ubuntu0.22.04.1) ...
+Selecting previously unselected package libdrm-radeon1:armhf.
+Preparing to unpack .../139-libdrm-radeon1_2.4.113-2~ubuntu0.22.04.1_armhf.deb ...
+Unpacking libdrm-radeon1:armhf (2.4.113-2~ubuntu0.22.04.1) ...
+Selecting previously unselected package libepoxy0:armhf.
+Preparing to unpack .../140-libepoxy0_1.5.10-1_armhf.deb ...
+Unpacking libepoxy0:armhf (1.5.10-1) ...
+Selecting previously unselected package libexiv2-27:armhf.
+Preparing to unpack .../141-libexiv2-27_0.27.5-3ubuntu1_armhf.deb ...
+Unpacking libexiv2-27:armhf (0.27.5-3ubuntu1) ...
+Selecting previously unselected package libgtk2.0-common.
+Preparing to unpack .../142-libgtk2.0-common_2.24.33-2ubuntu2.1_all.deb ...
+Unpacking libgtk2.0-common (2.24.33-2ubuntu2.1) ...
+Selecting previously unselected package libxcomposite1:armhf.
+Preparing to unpack .../143-libxcomposite1_1%3a0.4.5-1build2_armhf.deb ...
+Unpacking libxcomposite1:armhf (1:0.4.5-1build2) ...
+Selecting previously unselected package libxcursor1:armhf.
+Preparing to unpack .../144-libxcursor1_1%3a1.2.0-2build4_armhf.deb ...
+Unpacking libxcursor1:armhf (1:1.2.0-2build4) ...
+Selecting previously unselected package libxdamage1:armhf.
+Preparing to unpack .../145-libxdamage1_1%3a1.1.5-2build2_armhf.deb ...
+Unpacking libxdamage1:armhf (1:1.1.5-2build2) ...
+Selecting previously unselected package libxinerama1:armhf.
+Preparing to unpack .../146-libxinerama1_2%3a1.1.4-3_armhf.deb ...
+Unpacking libxinerama1:armhf (2:1.1.4-3) ...
+Selecting previously unselected package libxrandr2:armhf.
+Preparing to unpack .../147-libxrandr2_2%3a1.5.2-1build1_armhf.deb ...
+Unpacking libxrandr2:armhf (2:1.5.2-1build1) ...
+Selecting previously unselected package libgtk2.0-0:armhf.
+Preparing to unpack .../148-libgtk2.0-0_2.24.33-2ubuntu2.1_armhf.deb ...
+Unpacking libgtk2.0-0:armhf (2.24.33-2ubuntu2.1) ...
+Selecting previously unselected package libgail18:armhf.
+Preparing to unpack .../149-libgail18_2.24.33-2ubuntu2.1_armhf.deb ...
+Unpacking libgail18:armhf (2.24.33-2ubuntu2.1) ...
+Selecting previously unselected package libgail-common:armhf.
+Preparing to unpack .../150-libgail-common_2.24.33-2ubuntu2.1_armhf.deb ...
+Unpacking libgail-common:armhf (2.24.33-2ubuntu2.1) ...
+Selecting previously unselected package libgdk-pixbuf2.0-bin.
+Preparing to unpack .../151-libgdk-pixbuf2.0-bin_2.42.8+dfsg-1ubuntu0.3_armhf.deb ...
+Unpacking libgdk-pixbuf2.0-bin (2.42.8+dfsg-1ubuntu0.3) ...
+Selecting previously unselected package libilmbase25:armhf.
+Preparing to unpack .../152-libilmbase25_2.5.7-2_armhf.deb ...
+Unpacking libilmbase25:armhf (2.5.7-2) ...
+Selecting previously unselected package libopenexr25:armhf.
+Preparing to unpack .../153-libopenexr25_2.5.7-1_armhf.deb ...
+Unpacking libopenexr25:armhf (2.5.7-1) ...
+Selecting previously unselected package libraw20:armhf.
+Preparing to unpack .../154-libraw20_0.20.2-2ubuntu2.22.04.2_armhf.deb ...
+Unpacking libraw20:armhf (0.20.2-2ubuntu2.22.04.2) ...
+Selecting previously unselected package libswscale5:armhf.
+Preparing to unpack .../155-libswscale5_7%3a4.4.2-0ubuntu0.22.04.1_armhf.deb ...
+Unpacking libswscale5:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libumfpack5:armhf.
+Preparing to unpack .../156-libumfpack5_1%3a5.10.1+dfsg-4build1_armhf.deb ...
+Unpacking libumfpack5:armhf (1:5.10.1+dfsg-4build1) ...
+Selecting previously unselected package libgegl-common.
+Preparing to unpack .../157-libgegl-common_1%3a0.4.34-1build1_all.deb ...
+Unpacking libgegl-common (1:0.4.34-1build1) ...
+Selecting previously unselected package libgegl-0.4-0:armhf.
+Preparing to unpack .../158-libgegl-0.4-0_1%3a0.4.34-1build1_armhf.deb ...
+Unpacking libgegl-0.4-0:armhf (1:0.4.34-1build1) ...
+Selecting previously unselected package libgexiv2-2:armhf.
+Preparing to unpack .../159-libgexiv2-2_0.14.0-1build1_armhf.deb ...
+Unpacking libgexiv2-2:armhf (0.14.0-1build1) ...
+Selecting previously unselected package libgimp2.0:armhf.
+Preparing to unpack .../160-libgimp2.0_2.10.30-1ubuntu0.1_armhf.deb ...
+Unpacking libgimp2.0:armhf (2.10.30-1ubuntu0.1) ...
+Selecting previously unselected package libwayland-cursor0:armhf.
+Preparing to unpack .../161-libwayland-cursor0_1.20.0-1ubuntu0.1_armhf.deb ...
+Unpacking libwayland-cursor0:armhf (1.20.0-1ubuntu0.1) ...
+Selecting previously unselected package libwayland-egl1:armhf.
+Preparing to unpack .../162-libwayland-egl1_1.20.0-1ubuntu0.1_armhf.deb ...
+Unpacking libwayland-egl1:armhf (1.20.0-1ubuntu0.1) ...
+Selecting previously unselected package libgtk-3-common.
+Preparing to unpack .../163-libgtk-3-common_3.24.33-1ubuntu2.2_all.deb ...
+Unpacking libgtk-3-common (3.24.33-1ubuntu2.2) ...
+Selecting previously unselected package libgtk-3-0:armhf.
+Preparing to unpack .../164-libgtk-3-0_3.24.33-1ubuntu2.2_armhf.deb ...
+Unpacking libgtk-3-0:armhf (3.24.33-1ubuntu2.2) ...
+Selecting previously unselected package libgtk-3-bin.
+Preparing to unpack .../165-libgtk-3-bin_3.24.33-1ubuntu2.2_armhf.deb ...
+Unpacking libgtk-3-bin (3.24.33-1ubuntu2.2) ...
+Selecting previously unselected package libgtk2.0-bin.
+Preparing to unpack .../166-libgtk2.0-bin_2.24.33-2ubuntu2.1_armhf.deb ...
+Unpacking libgtk2.0-bin (2.24.33-2ubuntu2.1) ...
+Selecting previously unselected package libllvm15:armhf.
+Preparing to unpack .../167-libllvm15_1%3a15.0.7-0ubuntu0.22.04.3_armhf.deb ...
+Unpacking libllvm15:armhf (1:15.0.7-0ubuntu0.22.04.3) ...
+Selecting previously unselected package libqt5sql5-sqlite:armhf.
+Preparing to unpack .../168-libqt5sql5-sqlite_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking libqt5sql5-sqlite:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package librsvg2-common:armhf.
+Preparing to unpack .../169-librsvg2-common_2.52.5+dfsg-3ubuntu0.2_armhf.deb ...
+Unpacking librsvg2-common:armhf (2.52.5+dfsg-3ubuntu0.2) ...
+Selecting previously unselected package libwacom-bin.
+Preparing to unpack .../170-libwacom-bin_2.2.0-1_armhf.deb ...
+Unpacking libwacom-bin (2.2.0-1) ...
+Selecting previously unselected package mesa-va-drivers:armhf.
+Preparing to unpack .../171-mesa-va-drivers_23.2.1-1ubuntu3.1~22.04.3_armhf.deb ...
+Unpacking mesa-va-drivers:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Selecting previously unselected package mesa-vdpau-drivers:armhf.
+Preparing to unpack .../172-mesa-vdpau-drivers_23.2.1-1ubuntu3.1~22.04.3_armhf.deb ...
+Unpacking mesa-vdpau-drivers:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Selecting previously unselected package notification-daemon.
+Preparing to unpack .../173-notification-daemon_3.20.0-4build1_armhf.deb ...
+Unpacking notification-daemon (3.20.0-4build1) ...
+Selecting previously unselected package python3-notify2.
+Preparing to unpack .../174-python3-notify2_0.3-4_all.deb ...
+Unpacking python3-notify2 (0.3-4) ...
+Selecting previously unselected package qt5-gtk-platformtheme:armhf.
+Preparing to unpack .../175-qt5-gtk-platformtheme_5.15.3+dfsg-2ubuntu0.2_armhf.deb ...
+Unpacking qt5-gtk-platformtheme:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Selecting previously unselected package qttranslations5-l10n.
+Preparing to unpack .../176-qttranslations5-l10n_5.15.3-1_all.deb ...
+Unpacking qttranslations5-l10n (5.15.3-1) ...
+Selecting previously unselected package va-driver-all:armhf.
+Preparing to unpack .../177-va-driver-all_2.14.0-1_armhf.deb ...
+Unpacking va-driver-all:armhf (2.14.0-1) ...
+Selecting previously unselected package vdpau-driver-all:armhf.
+Preparing to unpack .../178-vdpau-driver-all_1.4-3build2_armhf.deb ...
+Unpacking vdpau-driver-all:armhf (1.4-3build2) ...
+Selecting previously unselected package xsane-common.
+Preparing to unpack .../179-xsane-common_0.999-11ubuntu1_all.deb ...
+Unpacking xsane-common (0.999-11ubuntu1) ...
+Selecting previously unselected package xsane.
+Preparing to unpack .../180-xsane_0.999-11ubuntu1_armhf.deb ...
+Unpacking xsane (0.999-11ubuntu1) ...
+Setting up libgme0:armhf (0.6.3-2) ...
+Setting up libssh-gcrypt-4:armhf (0.9.6-2ubuntu0.22.04.3) ...
+Setting up libsrt1.4-gnutls:armhf (1.4.4-4) ...
+Setting up libxcb-dri3-0:armhf (1.14-3ubuntu3) ...
+Setting up libudfread0:armhf (1.1.2-1) ...
+Setting up libwayland-server0:armhf (1.20.0-1ubuntu0.1) ...
+Setting up libaom3:armhf (3.3.0-1ubuntu0.1) ...
+Setting up libx11-xcb1:armhf (2:1.7.5-1ubuntu0.3) ...
+Setting up fontconfig (2.13.1-4.2ubuntu5) ...
+Regenerating fonts cache... done.
+Setting up librabbitmq4:armhf (0.10.0-1ubuntu2) ...
+Setting up libdouble-conversion3:armhf (3.1.7-4) ...
+Setting up libdrm-nouveau2:armhf (2.4.113-2~ubuntu0.22.04.1) ...
+Setting up libcodec2-1.0:armhf (1.0.1-3) ...
+Setting up libxdamage1:armhf (1:1.1.5-2build2) ...
+Setting up libmpg123-0:armhf (1.29.3-1ubuntu0.1) ...
+Setting up libxcb-xfixes0:armhf (1.14-3ubuntu3) ...
+Setting up libogg0:armhf (1.3.5-0ubuntu3) ...
+Setting up libspeex1:armhf (1.2~rc1.2-1.1ubuntu3) ...
+Setting up libshine3:armhf (3.1.1-2) ...
+Setting up hicolor-icon-theme (0.17-2) ...
+Setting up libxi6:armhf (2:1.8-1build1) ...
+Setting up libtwolame0:armhf (0.4.0-2build2) ...
+Setting up libxcb-xinput0:armhf (1.14-3ubuntu3) ...
+Setting up libdatrie1:armhf (0.2.13-2) ...
+Setting up firefox (1:1snap1-0ubuntu2) ...
+update-alternatives: using /usr/bin/firefox to provide /usr/bin/gnome-www-browser (gnome-www-browser) in auto mode
+update-alternatives: using /usr/bin/firefox to provide /usr/bin/x-www-browser (x-www-browser) in auto mode
+Setting up libgsm1:armhf (1.0.19-1) ...
+Setting up libsoxr0:armhf (0.1.3-4build2) ...
+Setting up libdrm-radeon1:armhf (2.4.113-2~ubuntu0.22.04.1) ...
+Setting up libglvnd0:armhf (1.4.0-1) ...
+Setting up libpgm-5.3-0:armhf (5.3.128~dfsg-2) ...
+Setting up libbabl-0.1-0:armhf (1:0.1.92-1) ...
+Setting up libgdk-pixbuf2.0-common (2.42.8+dfsg-1ubuntu0.3) ...
+Setting up libnorm1:armhf (1.5.9+dfsg-2) ...
+Setting up libxcb-keysyms1:armhf (0.4.0-1build3) ...
+Setting up libxcb-shape0:armhf (1.14-3ubuntu3) ...
+Setting up x11-common (1:7.7+23ubuntu2) ...
+Setting up libxcb-render-util0:armhf (0.3.9-1build3) ...
+Setting up libilmbase25:armhf (2.5.7-2) ...
+Setting up libmetis5:armhf (5.1.0.dfsg-7build2) ...
+Setting up libxcb-icccm4:armhf (0.4.1-1.1build2) ...
+Setting up libatspi2.0-0:armhf (2.44.0-3) ...
+Setting up libxvidcore4:armhf (2:1.3.7-1) ...
+Setting up libpcre2-16-0:armhf (10.39-3ubuntu0.1) ...
+Setting up libxcb-util1:armhf (0.4.0-1build2) ...
+Setting up libsnappy1v5:armhf (1.1.8-1build3) ...
+Setting up libxcb-xkb1:armhf (1.14-3ubuntu3) ...
+Setting up libxcb-image0:armhf (0.4.0-2) ...
+Setting up libopenexr25:armhf (2.5.7-1) ...
+Setting up libxcb-present0:armhf (1.14-3ubuntu3) ...
+Setting up libexiv2-27:armhf (0.27.5-3ubuntu1) ...
+Setting up libblas3:armhf (3.10.0-2ubuntu1) ...
+update-alternatives: using /usr/lib/arm-linux-gnueabihf/blas/libblas.so.3 to provide /usr/lib/arm-linux-gnueabihf/libblas.so.3 (libblas.so.3-arm-linux-gnueabihf) in auto mode
+Setting up libxcb-xinerama0:armhf (1.14-3ubuntu3) ...
+Setting up libgles2:armhf (1.4.0-1) ...
+Setting up qttranslations5-l10n (5.15.3-1) ...
+Setting up libva2:armhf (2.14.0-1) ...
+Setting up libepoxy0:armhf (1.5.10-1) ...
+Setting up libxfixes3:armhf (1:6.0.0-1) ...
+Setting up libxcb-sync1:armhf (1.14-3ubuntu3) ...
+Setting up libx264-163:armhf (2:0.163.3060+git5db6aa6-2build1) ...
+Setting up libopus0:armhf (1.3.1-0.1build2) ...
+Setting up libxinerama1:armhf (2:1.1.4-3) ...
+Setting up libvorbis0a:armhf (1.3.7-1build2) ...
+Setting up libxrandr2:armhf (2:1.5.2-1build1) ...
+Setting up libaacs0:armhf (0.11.1-1) ...
+Setting up libqt5core5a:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libraw20:armhf (0.20.2-2ubuntu2.22.04.2) ...
+Setting up libglapi-mesa:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Setting up libgfortran5:armhf (12.3.0-1ubuntu1~22.04) ...
+Setting up libmtdev1:armhf (1.1.6-1build4) ...
+Setting up libx265-199:armhf (3.5-2) ...
+Setting up libxcb-dri2-0:armhf (1.14-3ubuntu3) ...
+Setting up libatk1.0-data (2.36.0-3build1) ...
+Setting up python3-pyqt5.sip (12.9.1-1build1) ...
+Setting up libbdplus0:armhf (0.2.0-1) ...
+Setting up python3-notify2 (0.3-4) ...
+Setting up gimp-data (2.10.30-1ubuntu0.1) ...
+Setting up libva-drm2:armhf (2.14.0-1) ...
+Setting up ocl-icd-libopencl1:armhf (2.2.14-3) ...
+Setting up libxshmfence1:armhf (1.3-1build4) ...
+Setting up libvdpau1:armhf (1.4-3build2) ...
+Setting up libqt5dbus5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libxcb-randr0:armhf (1.14-3ubuntu3) ...
+Setting up libllvm15:armhf (1:15.0.7-0ubuntu0.22.04.3) ...
+Setting up libtheora0:armhf (1.1.1+dfsg.1-15ubuntu4) ...
+Setting up libgegl-common (1:0.4.34-1build1) ...
+Setting up libmd4c0:armhf (0.4.8-1) ...
+Setting up libthai-data (0.1.29-1build1) ...
+Setting up libgdk-pixbuf-2.0-0:armhf (2.42.8+dfsg-1ubuntu0.3) ...
+Setting up libvpx7:armhf (1.11.0-2ubuntu2.3) ...
+Setting up libcairo-gobject2:armhf (1.16.0-5ubuntu2) ...
+Setting up libgtk2.0-common (2.24.33-2ubuntu2.1) ...
+Setting up libatk1.0-0:armhf (2.36.0-3build1) ...
+Setting up libwayland-egl1:armhf (1.20.0-1ubuntu0.1) ...
+Setting up libgexiv2-2:armhf (0.14.0-1build1) ...
+Setting up libdav1d5:armhf (0.9.2-1) ...
+Setting up xsane-common (0.999-11ubuntu1) ...
+Setting up libbluray2:armhf (1:1.3.1-1) ...
+Setting up libqt5test5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libva-x11-2:armhf (2.14.0-1) ...
+Setting up libxcomposite1:armhf (1:0.4.5-1build2) ...
+Setting up libevdev2:armhf (1.12.1+dfsg-1) ...
+Setting up libsuitesparseconfig5:armhf (1:5.10.1+dfsg-4build1) ...
+Setting up libzvbi-common (0.2.35-19) ...
+Setting up libgtk-3-common (3.24.33-1ubuntu2.2) ...
+Setting up libmp3lame0:armhf (3.100-3build2) ...
+Setting up libvorbisenc2:armhf (1.3.7-1build2) ...
+Setting up libdrm-amdgpu1:armhf (2.4.113-2~ubuntu0.22.04.1) ...
+Setting up libwacom-common (2.2.0-1) ...
+Setting up libxkbcommon0:armhf (1.4.0-1) ...
+Setting up libwayland-client0:armhf (1.20.0-1ubuntu0.1) ...
+Setting up python3-dbus.mainloop.pyqt5 (5.15.6+dfsg-1ubuntu3) ...
+Setting up mesa-vdpau-drivers:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Setting up libzvbi0:armhf (0.2.35-19) ...
+Setting up libamd2:armhf (1:5.10.1+dfsg-4build1) ...
+Setting up gtk-update-icon-cache (3.24.33-1ubuntu2.2) ...
+Setting up libice6:armhf (2:1.0.10-1build2) ...
+Setting up liblapack3:armhf (3.10.0-2ubuntu1) ...
+update-alternatives: using /usr/lib/arm-linux-gnueabihf/lapack/liblapack.so.3 to provide /usr/lib/arm-linux-gnueabihf/liblapack.so.3 (liblapack.so.3-arm-linux-gnueabihf) in auto mode
+Setting up libzmq5:armhf (4.3.4-2) ...
+Setting up libcolamd2:armhf (1:5.10.1+dfsg-4build1) ...
+Setting up libgbm1:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Setting up libwacom9:armhf (2.2.0-1) ...
+Setting up libxtst6:armhf (2:1.2.3-1build4) ...
+Setting up libxcursor1:armhf (1:1.2.0-2build4) ...
+Setting up libqt5network5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libavutil56:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Setting up libinput-bin (1.20.0-1ubuntu0.3) ...
+Setting up libqt5sql5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libatk-bridge2.0-0:armhf (2.38.0-3) ...
+Setting up libthai0:armhf (0.1.29-1build1) ...
+Setting up libcamd2:armhf (1:5.10.1+dfsg-4build1) ...
+Setting up libvorbisfile3:armhf (1.3.7-1build2) ...
+Setting up libqt5xml5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libegl-mesa0:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Setting up libxkbcommon-x11-0:armhf (1.4.0-1) ...
+Setting up libwacom-bin (2.2.0-1) ...
+Setting up vdpau-driver-all:armhf (1.4-3build2) ...
+Setting up at-spi2-core (2.44.0-3) ...
+Setting up libgdk-pixbuf2.0-bin (2.42.8+dfsg-1ubuntu0.3) ...
+Setting up libccolamd2:armhf (1:5.10.1+dfsg-4build1) ...
+Setting up libwayland-cursor0:armhf (1.20.0-1ubuntu0.1) ...
+Setting up libegl1:armhf (1.4.0-1) ...
+Setting up libswscale5:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Setting up mesa-va-drivers:armhf (23.2.1-1ubuntu3.1~22.04.3) ...
+Setting up libsm6:armhf (2:1.2.3-1build2) ...
+Setting up libopenmpt0:armhf (0.6.1-1) ...
+Setting up libcholmod3:armhf (1:5.10.1+dfsg-4build1) ...
+Setting up libinput10:armhf (1.20.0-1ubuntu0.3) ...
+Setting up libqt5sql5-sqlite:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libpango-1.0-0:armhf (1.50.6+ds-2ubuntu1) ...
+Setting up libqt5gui5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libqt5widgets5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libswresample3:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Setting up libqt5help5:armhf (5.15.3-1) ...
+Setting up libqt5printsupport5:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up libumfpack5:armhf (1:5.10.1+dfsg-4build1) ...
+Setting up va-driver-all:armhf (2.14.0-1) ...
+Setting up libpangoft2-1.0-0:armhf (1.50.6+ds-2ubuntu1) ...
+Setting up libpangocairo-1.0-0:armhf (1.50.6+ds-2ubuntu1) ...
+Setting up libqt5designer5:armhf (5.15.3-1) ...
+Setting up libqt5svg5:armhf (5.15.3-1) ...
+Setting up librsvg2-2:armhf (2.52.5+dfsg-3ubuntu0.2) ...
+Setting up librsvg2-common:armhf (2.52.5+dfsg-3ubuntu0.2) ...
+Setting up libavcodec58:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Setting up python3-pyqt5 (5.15.6+dfsg-1ubuntu3) ...
+Setting up libchromaprint1:armhf (1.5.1-2) ...
+Setting up libavformat58:armhf (7:4.4.2-0ubuntu0.22.04.1) ...
+Setting up hplip-gui (3.21.12+dfsg0-1) ...
+Setting up libgegl-0.4-0:armhf (1:0.4.34-1build1) ...
+Setting up adwaita-icon-theme (41.0-1ubuntu1) ...
+update-alternatives: using /usr/share/icons/Adwaita/cursor.theme to provide /usr/share/icons/default/index.theme (x-cursor-theme) in auto mode
+Setting up libgtk2.0-0:armhf (2.24.33-2ubuntu2.1) ...
+Setting up humanity-icon-theme (0.6.16) ...
+Setting up libgail18:armhf (2.24.33-2ubuntu2.1) ...
+Setting up libgtk2.0-bin (2.24.33-2ubuntu2.1) ...
+Setting up libgimp2.0:armhf (2.10.30-1ubuntu0.1) ...
+Setting up xsane (0.999-11ubuntu1) ...
+Setting up libgail-common:armhf (2.24.33-2ubuntu2.1) ...
+Setting up ubuntu-mono (20.10-0ubuntu2) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for udev (249.11-0ubuntu3.12) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for libglib2.0-0:armhf (2.72.4-0ubuntu2.5) ...
+Setting up libgtk-3-0:armhf (3.24.33-1ubuntu2.2) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.10) ...
+Setting up libgtk-3-bin (3.24.33-1ubuntu2.2) ...
+Setting up qt5-gtk-platformtheme:armhf (5.15.3+dfsg-2ubuntu0.2) ...
+Setting up notification-daemon (3.20.0-4build1) ...
+Processing triggers for libgdk-pixbuf-2.0-0:armhf (2.42.8+dfsg-1ubuntu0.3) ...
+Scanning processes...
+Scanning processor microcode...
+Scanning linux images...
+
+Running kernel seems to be up-to-date.
+
+Failed to check for processor microcode upgrades.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+fjura@fjura:~$ ls
+workspace
+fjura@fjura:~$ lsusb
+Bus 001 Device 002: ID 03f0:102a HP, Inc LaserJet Professional P 1102w
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+fjura@fjura:~$ ip address
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 2c:cf:67:ce:5b:22 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.117/24 metric 600 brd 192.168.1.255 scope global dynamic wlan0
+       valid_lft 31148sec preferred_lft 31148sec
+    inet6 2603:8000:8c00:2d25::1bb4/128 scope global dynamic noprefixroute
+       valid_lft 592749sec preferred_lft 592749sec
+    inet6 fd00:147d:58f:2b38:2ecf:67ff:fece:5b22/64 scope global dynamic mngtmpaddr noprefixroute
+       valid_lft 604703sec preferred_lft 604703sec
+    inet6 2603:8000:8c00:2d25:2ecf:67ff:fece:5b22/64 scope global dynamic mngtmpaddr noprefixroute
+       valid_lft 604703sec preferred_lft 604703sec
+    inet6 fe80::2ecf:67ff:fece:5b22/64 scope link
+       valid_lft forever preferred_lft forever
+fjura@fjura:~$ sudo systemctl restart cups
+fjura@fjura:~$ hp-setup
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Printer/Fax Setup Utility ver. 9.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+warning: No display found.
+error: hp-setup requires GUI support (try running with --qt3). Also, try using interactive (-i) mode.
+fjura@fjura:~$ hp-setup --qt3
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Printer/Fax Setup Utility ver. 9.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+
+Installs HPLIP printers and faxes in the CUPS spooler. Tries to automatically determine the correct PPD file to ng of a testpage. Performs basic fax parameter setup.
+
+Usage: hp-setup [MODE] [OPTIONS] [SERIAL NO.|USB bus:device|IP|DEVNODE]
+
+[MODE]
+  Run in graphical UI mode:             -u or --gui (Default)
+  Run in interactive mode:              -i or --interactive
+
+[OPTIONS]
+  Automatic mode:                       -a or --auto (-i mode only)
+  To specify the port on a multi-port   --port=<port> (Valid values are 1*, 2, and 3. *default)
+  JetDirect:
+  No testpage in automatic mode:        -x (-i mode only)
+  To specify a CUPS printer queue       -p<printer> or --printer=<printer> (-i mode only)
+  name:
+  To specify a CUPS fax queue name:     -f<fax> or --fax=<fax> (-i mode only)
+  Type of queue(s) to install:          -t<typelist> or --type=<typelist>. <typelist>: print*, fax* (*default) (
+  To specify the device URI to          -d<device> or --device=<device> (--qt4 mode only)
+  install:
+  Remove printers or faxes instead of   -r or --rm or --remove
+  setting-up:
+  Set the language:                     --loc=<lang> or --lang=<lang>. Use --loc=? or --lang=? to see a list of
+                                        codes.
+  Set the logging level:                -l<level> or --logging=<level>
+                                        <level>: none, info*, error, warn, debug (*default)
+  Run in debug mode:                    -g (same as option: -ldebug)
+  This help information:                -h or --help
+
+[SERIAL NO.|USB ID|IP|DEVNODE]
+  USB bus:device (usb only):            "xxx:yyy" where 'xxx' is the USB bus and 'yyy' is the USB device. (Note:
+                                        leading zeros must be present.)
+                                        Use the 'lsusb' command to obtain this information.
+  IPs (network only):                   IPv4 address "a.b.c.d" or "hostname"
+  DEVNODE (parallel only):              "/dev/parportX", X=0,1,2,...
+  SERIAL NO. (usb and parallel only):   "serial no."
+
+Examples:
+  Setup using GUI mode:                 $ hp-setup
+  Setup using GUI mode, specifying      $ hp-setup -b usb
+  usb:
+  Setup using GUI mode, specifying an   $ hp-setup 192.168.0.101
+  IP:
+  One USB printer attached, automatic:  $ hp-setup -i -a
+  USB, IDs specified:                   $ hp-setup -i 001:002
+  Network:                              $ hp-setup -i 66.35.250.209
+  Network, Jetdirect port 2:            $ hp-setup -i --port=2 66.35.250.209
+  Parallel:                             $ hp-setup -i /dev/parport0
+  USB or parallel, using serial         $ hp-setup -i US12345678A
+  number:
+  USB, automatic:                       $ hp-setup -i --auto 001:002
+  Parallel, automatic, no testpage:     $ hp-setup -i -a -x /dev/parport0
+  Parallel, choose device:              $ hp-setup -i -b par
+
+Notes:
+1. If no serial number, USB ID, IP, or device node is specified, the USB and parallel busses will be probed for
+2. Using 'lsusb' to obtain USB IDs: (example)
+        $ lsusb
+        Bus 003 Device 011: ID 03f0:c202 Hewlett-Packard
+        $ hp-setup --auto 003:011
+        (Note: You may have to run 'lsusb' from /sbin or another location. Use '$ locate lsusb' to determine thi
+3. Parameters -a, -f, -p, or -t are not valid in GUI (-u) mode.
+
+See Also:
+hp-makeuri
+hp-probe
+
+error: option --qt3 not recognized
+fjura@fjura:~$ hp-setup
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Printer/Fax Setup Utility ver. 9.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+warning: No display found.
+error: hp-setup requires GUI support (try running with --qt3). Also, try using interactive (-i) mode.
+fjura@fjura:~$ hp-setup -i
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Printer/Fax Setup Utility ver. 9.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+(Note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.)
+
+
+--------------------------------
+| SELECT CONNECTION (I/O) TYPE |
+--------------------------------
+
+  Num       Connection  Description
+            Type
+  --------  ----------  ----------------------------------------------------------
+  0*        usb         Universal Serial Bus (USB)
+  1         net         Network/Ethernet/Wireless (direct connection or JetDirect)
+
+Enter number 0...1 for connection type (q=quit, enter=usb*) ? 0
+
+Using connection type: usb
+
+error: No device selected/specified or that supports this functionality.
+fjura@fjura:~$ lsusb
+Bus 001 Device 002: ID 03f0:102a HP, Inc LaserJet Professional P 1102w
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+fjura@fjura:~$ hp-plugin
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Plugin Download and Install Utility ver. 2.1
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Plugin Download and Install Utility ver. 2.1
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+warning: No display found.
+error: hp-plugin requires GUI support (try running with --qt3). Try using interactive (-i) mode.
+fjura@fjura:~$ hp-plugin -i
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Plugin Download and Install Utility ver. 2.1
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Plugin Download and Install Utility ver. 2.1
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+(Note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.)
+
+
+------------------------------------------
+| PLUG-IN INSTALLATION FOR HPLIP 3.21.12 |
+------------------------------------------
+
+  Option      Description
+  ----------  --------------------------------------------------
+  d           Download plug-in from HP (recommended)
+  p           Specify a path to the plug-in (advanced)
+  q           Quit hp-plugin (skip installation)
+
+Enter option (d=download*, p=specify path, q=quit) ? d
+
+-------------------
+| DOWNLOAD PLUGIN |
+-------------------
+
+Checking for network connection...
+Downloading plug-in from:
+Downloading plug-in: [\                                                                                         key
+
+
+----------------------
+| INSTALLING PLUG-IN |
+----------------------
+
+Creating directory plugin_tmp
+Verifying archive integrity... All good.
+Uncompressing HPLIP 3.21.12 Plugin Self Extracting Archive......................................................
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Plugin Installer ver. 3.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+Plug-in version: 3.21.12
+Installed HPLIP version: 3.21.12
+Number of files to install: 64
+
+You must agree to the license terms before installing the plug-in:
+
+LICENSE TERMS FOR HP Linux Imaging and Printing (HPLIP) Driver Plug-in
+
+
+These License Terms govern your Use of the HPLIP Driver Plug-in Software (the "Software"). USE OF THE SOFTWARE
+INCLUDING, WITHOUT LIMITATION, ANY DOCUMENTATION, IS SUBJECT TO THESE LICENSE TERMS AND THE APPLICABLE AS-IS
+WARRANTY STATEMENT. BY DOWNLOADING AND INSTALLING THE SOFTWARE, YOU ARE AGREEING TO BE BOUND BY THESE TERMS. IF
+YOU DO NOT AGREE TO ALL OF THESE TERMS, DO NOT DOWNLOAD AND INSTALL THE SOFTWARE ON YOUR SYSTEM.
+
+
+1. License Grant. HP grants you a license to Use one copy of the Software with HP printing products only. "Use"
+includes using, storing, loading, installing, executing, and displaying the Software. You may not modify the
+Software or disable any licensing or control features of the Software.
+
+
+2. Ownership. The Software is owned and copyrighted by HP or its third party suppliers. Your license confers no
+title to, or ownership in, the Software and is not a sale of any rights in the Software. HP's third party
+suppliers may protect their rights in the Software in the event of any violation of these license terms.
+
+
+3. Copies and Adaptations. You may only make copies or adaptations of the Software for archival purposes or when
+copying or adaptation is an essential step in the authorized Use of the Software. You must reproduce all
+copyright notices in the original Software on all copies or adaptations. You may not copy the Software onto any
+public network.
+
+
+4. No Disassembly. You may not Disassemble the Software unless HP's prior written consent is obtained.
+"Disassemble" includes disassembling, decompiling, decrypting, and reverse engineering. In some jurisdictions,
+HP's consent may not be required for limited Disassembly. Upon request, you will provide HP with reasonably
+detailed information regarding any Disassembly.
+
+
+5. No Transfer. You may not assign, sublicense or otherwise transfer all or any part of these License Terms or
+the Software.
+
+
+6. Termination. HP may terminate your license, upon notice, for failure to comply with any of these License
+Terms. Upon termination, you must immediately destroy the Software, together with all copies, adaptations and
+merged portions in any form.
+
+
+7. Export Requirements. You may not export or re-export the Software or any copy or adaptation in violation of
+any applicable laws or regulations.
+
+
+8. U.S. Government Restricted Rights. The Software has been developed entirely at private expense. It is
+delivered and licensed, as defined in any applicable DFARS, FARS, or other equivalent federal agency regulation
+or contract clause, as either "commercial computer software" or "restricted computer software", whichever is
+applicable. You have only those rights provided for such Software by the applicable clause or regulation or by
+these License Terms.
+
+
+9. DISCLAIMER OF WARRANTIES. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, HP AND ITS SUPPLIERS PROVIDE THE
+SOFTWARE "AS IS" AND WITH ALL FAULTS, AND HEREBY DISCLAIM ALL OTHER WARRANTIES AND CONDITIONS, EITHER EXPRESS,
+IMPLIED, OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF TITLE AND NON-INFRINGEMENT, ANY IMPLIED
+WARRANTIES, DUTIES OR CONDITIONS OF MERCHANTABILITY, OF FITNESS FOR A PARTICULAR PURPOSE, AND OF LACK OF VIRUSES
+ALL WITH REGARD TO THE SOFTWARE. Some states/jurisdictions do not allow exclusion of implied warranties or
+limitations on the duration of implied warranties, so the above disclaimer may not apply to you in its entirety.
+
+
+10. LIMITATION OF LIABILITY. Notwithstanding any damages that you might incur, the entire liability of HP and
+any of its suppliers under any provision of this agreement and your exclusive remedy for all of the foregoing
+shall be limited to the greater of the amount actually paid by you separately for the Software or U.S. $5.00. TO
+THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL HP OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL,
+INCIDENTAL,
+INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS OR
+CONFIDENTIAL OR OTHER INFORMATION, FOR BUSINESS INTERRUPTION, FOR PERSONAL INJURY, FOR LOSS OF PRIVACY ARISING
+OUT OF OR IN ANY WAY RELATED TO THE USE OF OR INABILITY TO USE THE SOFTWARE, OR OTHERWISE IN CONNECTION WITH ANY
+PROVISION OF THIS AGREEMENT, EVEN IF HP OR ANY SUPPLIER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND
+EVEN IF THE REMEDY FAILS OF ITS ESSENTIAL PURPOSE. Some states/jurisdictions do not allow the exclusion or
+limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you.
+
+Do you accept the license terms for the plug-in (y=yes*, n=no, q=quit) ? y
+Please enter the sudoer (fjura)'s password:
+
+Done.
+
+Done.
+fjura@fjura:~$

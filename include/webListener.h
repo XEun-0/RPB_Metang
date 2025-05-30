@@ -13,10 +13,10 @@ public:
 
 private:
     static WebListener *instance;
-    const char *ssid = "your-SSID";       // Your Wi-Fi network name
-    const char *password = "your-password";  // Your Wi-Fi password
-    const char *udpAddress = "192.168.1.100"; // Receiver IP address
-    const int udpPort = 12345;  // UDP port
+    const char *ssid = "SpectrumSetup-39";      // Your Wi-Fi network name
+    const char *password = "luckyfarmer064";    // Your Wi-Fi password
+    const char *udpAddress = "192.168.1.100";   // Receiver IP address
+    const int udpPort = 12345;                  // UDP port
 
     WebListener(void);
     ~WebListener(void);
