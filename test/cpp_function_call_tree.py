@@ -10,18 +10,19 @@ FUNC_CALL_PATTERN = re.compile(r'\b(\w+)\s*\(')
 
 # === Data Structures ===
 function_defs = {}  # function_name -> (filename, line_number)
-function_calls = defaultdict(set)
-call_counts = defaultdict(int)
-called_by = defaultdict(set)
+function_calls = defaultdict(set)  # caller -> set(callees)
+call_counts = defaultdict(int)     # callee -> total # of calls
+called_by = defaultdict(set)       # callee -> set(callers)
 
 # === File Finder ===
-def find_cpp_files(root='.'):
-    cpp_files = []
+def find_source_files(root='.'):
+    exts = ('.cpp', '.cc', '.c')
+    source_files = []
     for dirpath, _, filenames in os.walk(root):
         for file in filenames:
-            if file.endswith('.cpp'):
-                cpp_files.append(os.path.join(dirpath, file))
-    return cpp_files
+            if file.endswith(exts):
+                source_files.append(os.path.join(dirpath, file))
+    return source_files
 
 # === Parser ===
 def extract_functions_and_calls(filepath):
@@ -35,7 +36,7 @@ def extract_functions_and_calls(filepath):
     for i, line in enumerate(lines):
         stripped = line.strip()
 
-        # Detect function definitions (with optional ClassName:: prefix)
+        # Detect function definitions (support ClassName::func)
         match = FUNC_DEF_PATTERN.match(line)
         if match:
             func_name = match.group(1)
@@ -56,17 +57,19 @@ def extract_functions_and_calls(filepath):
             pending_func_name = None
 
         elif pending_func_name and not stripped:
-            continue
+            continue  # wait if blank line
 
         elif pending_func_name:
-            pending_func_name = None
+            pending_func_name = None  # cancel if nothing found
 
+        # Inside a function body
         if current_func:
             brace_depth += line.count("{") - line.count("}")
             if brace_depth <= 0:
                 current_func = None
                 continue
 
+            # Track calls inside body
             for call in FUNC_CALL_PATTERN.findall(line):
                 if call == current_func or call + "()" == current_func:
                     continue
@@ -86,15 +89,15 @@ def print_call_tree(func, visited=None, indent=0):
 
 # === Main ===
 def main():
-    cpp_files = find_cpp_files()
+    source_files = find_source_files()
 
-    if not cpp_files:
-        print("❌ No .cpp files found in the current directory.")
+    if not source_files:
+        print("❌ No .cpp, .cc, or .c files found in the current directory.")
         return
 
-    print(f"📁 Found {len(cpp_files)} .cpp files. Parsing...\n")
+    print(f"📁 Found {len(source_files)} source files. Parsing...\n")
 
-    for filepath in cpp_files:
+    for filepath in source_files:
         extract_functions_and_calls(filepath)
 
     print("\n🔍 FUNCTION CALL TREES:\n")
