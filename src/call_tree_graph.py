@@ -71,8 +71,6 @@ def extract_functions_and_calls(filepath):
             for call in FUNC_CALL_PATTERN.findall(line):
                 if call in RESERVED_KEYWORDS or not call.isidentifier():
                     continue
-                if call == current_func or call + "()" == current_func:
-                    continue
                 function_calls[current_func].add(call)
                 call_counts[call] += 1
                 called_by[call].add(current_func)
@@ -138,14 +136,14 @@ def generate_html(output_file="function_graph.html"):
         .append("svg")
         .attr("width", width)
         .attr("height", height)
-        .call(d3.zoom().on("zoom", (event) => {{
+        .call(d3.zoom().on("zoom", function(event) {{
             container.attr("transform", event.transform);
         }}));
 
     const container = svg.append("g");
 
     const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+        .force("link", d3.forceLink(links).id(function(d) {{ return d.id; }}).distance(100))
         .force("charge", d3.forceManyBody().strength(-300))
         .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -169,18 +167,18 @@ def generate_html(output_file="function_graph.html"):
         .attr("fill", "#1f77b4");
 
     node.append("text")
-        .text(d => d.name)
+        .text(function(d) {{ return d.name; }})
         .attr("x", 12)
         .attr("y", 4);
 
-    simulation.on("tick", () => {{
+    simulation.on("tick", function() {{
         link
-            .attr("x1", d => d.source.x)
-            .attr("y1", d => d.source.y)
-            .attr("x2", d => d.target.x)
-            .attr("y2", d => d.target.y);
+            .attr("x1", function(d) {{ return d.source.x; }})
+            .attr("y1", function(d) {{ return d.source.y; }})
+            .attr("x2", function(d) {{ return d.target.x; }})
+            .attr("y2", function(d) {{ return d.target.y; }});
 
-        node.attr("transform", d => `translate(${d.x},${d.y})`);
+        node.attr("transform", function(d) {{ return "translate(" + d.x + "," + d.y + ")"; }});
     }});
 
     function dragstarted(event, d) {{
