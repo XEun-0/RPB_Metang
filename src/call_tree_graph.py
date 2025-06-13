@@ -2,10 +2,13 @@ import os
 import re
 from collections import defaultdict
 
+# Regex for function definitions (handles return type and class scoping)
 FUNC_DEF_PATTERN = re.compile(
     r'^\s*(?:[\w:<>\*&]+\s+)+((?:\w+::)?\w+)\s*\(([^)]*)\)\s*(\{)?\s*$'
 )
-FUNC_CALL_PATTERN = re.compile(r'\b(\w+)\s*\(')
+
+# Improved regex for function calls (handles this->func(), obj.func(), Namespace::func())
+FUNC_CALL_PATTERN = re.compile(r'(?:\b\w+->|\b\w+\.|\b\w+::)?(\w+)\s*\(')
 
 RESERVED_KEYWORDS = {'if', 'for', 'while', 'switch', 'return', 'sizeof', 'catch', 'else', 'delete'}
 
@@ -69,9 +72,10 @@ def extract_functions_and_calls(filepath):
                     continue
                 if call == current_func or call + "()" == current_func:
                     continue
-                function_calls[current_func].add(call)
-                call_counts[call] += 1
-                called_by[call].add(current_func)
+                if call in function_defs:  # Only count known functions
+                    function_calls[current_func].add(call)
+                    call_counts[call] += 1
+                    called_by[call].add(current_func)
 
 def print_call_tree(func, visited=None, indent=0):
     if visited is None:
@@ -120,6 +124,9 @@ def generate_html(output_file="function_graph.html"):
         paint-order: stroke;
         pointer-events: none;
     }}
+    marker {{
+        fill: #aaa;
+    }}
 </style>
 </head>
 <body>
@@ -140,16 +147,25 @@ def generate_html(output_file="function_graph.html"):
 
     const container = svg.append("g");
 
-    const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id).distance(100))
-        .force("charge", d3.forceManyBody().strength(-300))
-        .force("center", d3.forceCenter(width / 2, height / 2));
+    svg.append("defs").selectAll("marker")
+        .data(["arrow"])
+        .join("marker")
+        .attr("id", "arrow")
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 15)
+        .attr("refY", 0)
+        .attr("markerWidth", 6)
+        .attr("markerHeight", 6)
+        .attr("orient", "auto")
+        .append("path")
+        .attr("d", "M0,-5L10,0L0,5");
 
     const link = container.append("g")
         .attr("stroke", "#aaa")
         .selectAll("line")
         .data(links)
-        .join("line");
+        .join("line")
+        .attr("marker-end", "url(#arrow)");
 
     const node = container.append("g")
         .selectAll("g")
@@ -169,6 +185,11 @@ def generate_html(output_file="function_graph.html"):
         .attr("x", 12)
         .attr("y", 4);
 
+    simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+        .force("charge", d3.forceManyBody().strength(-300))
+        .force("center", d3.forceCenter(width / 2, height / 2));
+
     simulation.on("tick", () => {{
         link
             .attr("x1", d => d.source.x)
@@ -176,7 +197,7 @@ def generate_html(output_file="function_graph.html"):
             .attr("x2", d => d.target.x)
             .attr("y2", d => d.target.y);
 
-        node.attr("transform", d => "translate(" + d.x + "," + d.y + ")");
+        node.attr("transform", d => `translate(${{d.x}},${{d.y}})`);
     }});
 
     function dragstarted(event, d) {{
