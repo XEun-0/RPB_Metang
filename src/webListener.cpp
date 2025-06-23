@@ -15,7 +15,7 @@ void WebListener::init(void) {
 
     int n = WiFi.scanNetworks();
     for (int i = 0; i < n; ++i) {
-        Serial.printf("%d: %s (%ddBm)\n", i + 1, WiFi.SSID(i).c_str(), WiFi.RSSI(i));
+        printf("%d: %s (%ddBm)\n", i + 1, WiFi.SSID(i).c_str(), WiFi.RSSI(i));
     }
 
     WiFi.begin(ssid, password);
@@ -23,12 +23,13 @@ void WebListener::init(void) {
     while (WiFi.status() != WL_CONNECTED) {
         vTaskDelay(100 / portTICK_PERIOD_MS);
         printf("Connecting to WiFi...\n");
-        //Serial.println("Connecting to WiFi...");
     }
 
     printf("Connected to WiFi\n");
-    //Serial.println("Connected to WiFi");
-    
+
+    // Correct way to print the IP address
+    printf("ESP32 IP Address: %s\n", WiFi.localIP().toString().c_str());
+
     udp.begin(udpPort);
 }
 
@@ -41,7 +42,7 @@ void WebListener::mainLoop(void) {
     while(1) {
         // Do whatever
         
-        printf("[ webListenerTask ]  Working..\n");
+        // printf("[ webListenerTask ]  Working..\n");
         
         // Do something. Udp just convert the 
         // print job file into something 
@@ -50,17 +51,17 @@ void WebListener::mainLoop(void) {
         // might have to convert this mcu into
         // an WAP (wifi access point).
         
-        // packetSize = udp.parsePacket();
-        // if (packetSize) {
-        //     char incomingPacket[255];
-        //     int len = udp.read(incomingPacket, 255);
-        //     if (len > 0) {
-        //         incomingPacket[len] = 0;  // Null-terminate the string
-        //     }
-        //     Serial.printf("Received: %s\n", incomingPacket);
-        // }
+        packetSize = udp.parsePacket();
+        if (packetSize) {
+            char incomingPacket[255];
+            int len = udp.read(incomingPacket, 255);
+            if (len > 0) {
+                incomingPacket[len] = 0;  // Null-terminate the string
+            }
+            printf("Received: %s\n", incomingPacket);
+        }
 
-        vTaskDelay(100 / portTICK_PERIOD_MS);
+        vTaskDelay(200 / portTICK_PERIOD_MS);
     }
 
     // Send error code serial msg if needed.

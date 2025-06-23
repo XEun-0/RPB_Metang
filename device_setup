@@ -2,7 +2,17 @@
 
 # Verify no device forwarded
 echo -e "$(tput bold)Verifying no forwarded device...$(tput sgr0)"
-ls /dev/ttyUSB*
+
+
+# ls /dev/ttyUSB*
+ls /dev/ttyUSB* 1>/dev/null 2>&1
+USB_EXISTS=$?
+
+ls /dev/ttyACM* 1>/dev/null 2>&1
+ACM_EXISTS=$?
+
+echo "$USB_EXISTS"
+echo "$ACM_EXISTS"
 
 # Get the directory where this bash script is located
 SCRIPT_DIR=$(dirname "$(realpath "$0")")

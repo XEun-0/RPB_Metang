@@ -1,5 +1,6 @@
 #!/bin/bash
 
+######## MIGHT BE OBSOLETE ###############
 # variables
 CONTAINER_NAME=smw-platformio-dev
 CONTAINER_DIR=containers/PIO_Container/

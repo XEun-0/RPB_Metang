@@ -89,10 +89,17 @@ def generate_html(output_file="function_graph.html"):
     links = []
     id_map = {}
     id_counter = 0
+    connection_counts = defaultdict(int)
+
+    for caller, callees in function_calls.items():
+        connection_counts[caller] += len(callees)
+        for callee in callees:
+            connection_counts[callee] += 1
 
     for func in function_defs:
         id_map[func] = id_counter
-        nodes.append({'id': id_counter, 'name': func})
+        size = 8 + 2 * connection_counts[func]
+        nodes.append({'id': id_counter, 'name': func, 'size': size})
         id_counter += 1
 
     for caller, callees in function_calls.items():
@@ -122,6 +129,9 @@ def generate_html(output_file="function_graph.html"):
         paint-order: stroke;
         pointer-events: none;
     }}
+    .arrow {{
+        fill: #aaa;
+    }}
 </style>
 </head>
 <body>
@@ -140,18 +150,33 @@ def generate_html(output_file="function_graph.html"):
             container.attr("transform", event.transform);
         }}));
 
+    svg.append("defs").append("marker")
+        .attr("id", "arrow")
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 15)
+        .attr("refY", 0)
+        .attr("markerWidth", 6)
+        .attr("markerHeight", 6)
+        .attr("orient", "auto")
+        .append("path")
+        .attr("d", "M0,-5L10,0L0,5")
+        .attr("class", "arrow");
+
     const container = svg.append("g");
 
     const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(function(d) {{ return d.id; }}).distance(100))
+        .force("link", d3.forceLink(links).id(d => d.id).distance(100))
         .force("charge", d3.forceManyBody().strength(-300))
-        .force("center", d3.forceCenter(width / 2, height / 2));
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force("collision", d3.forceCollide().radius(d => d.size + 4));
 
     const link = container.append("g")
         .attr("stroke", "#aaa")
+        .attr("stroke-width", 1.5)
         .selectAll("line")
         .data(links)
-        .join("line");
+        .join("line")
+        .attr("marker-end", "url(#arrow)");
 
     const node = container.append("g")
         .selectAll("g")
@@ -163,22 +188,22 @@ def generate_html(output_file="function_graph.html"):
             .on("end", dragended));
 
     node.append("circle")
-        .attr("r", 8)
+        .attr("r", d => d.size)
         .attr("fill", "#1f77b4");
 
     node.append("text")
-        .text(function(d) {{ return d.name; }})
-        .attr("x", 12)
+        .text(d => d.name)
+        .attr("x", d => d.size + 4)
         .attr("y", 4);
 
-    simulation.on("tick", function() {{
+    simulation.on("tick", () => {{
         link
-            .attr("x1", function(d) {{ return d.source.x; }})
-            .attr("y1", function(d) {{ return d.source.y; }})
-            .attr("x2", function(d) {{ return d.target.x; }})
-            .attr("y2", function(d) {{ return d.target.y; }});
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y);
 
-        node.attr("transform", function(d) {{ return "translate(" + d.x + "," + d.y + ")"; }});
+        node.attr("transform", d => "translate(" + d.x + "," + d.y + ")");
     }});
 
     function dragstarted(event, d) {{
