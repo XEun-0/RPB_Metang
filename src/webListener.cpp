@@ -52,14 +52,25 @@ void WebListener::mainLoop(void) {
         // an WAP (wifi access point).
         
         packetSize = udp.parsePacket();
+        char incomingPacket[255];
+        int len = 0;
         if (packetSize) {
-            char incomingPacket[255];
-            int len = udp.read(incomingPacket, 255);
+            len = udp.read(incomingPacket, 255);
+            
             if (len > 0) {
                 incomingPacket[len] = 0;  // Null-terminate the string
             }
             printf("Received: %s\n", incomingPacket);
+            
+            for (int i = 0; i < len + 1; i++) { 
+                uint8_t *byte;
+                printf("%02x ", incomingPacket[i]);
+            }
+            printf("\n");
         }
+
+        
+        
 
         vTaskDelay(200 / portTICK_PERIOD_MS);
     }

@@ -1,31 +1,31 @@
+# Makefile for UdpTesterApp
 
+CC = g++
+FLAGS  = -DSOMETHING
 
-# compiler and flags
-CXX := g++
-CXX_FLAGS := -Wall -02
+INCLUDES = -I. -IInclude
 
-# source files
-SENDER_SRC := udp_send_tester.cpp
-RECV_SRC := udp_recv_tester.cpp
+CCFLAGS = -O3 -Wall -fno-strict-aliasing -c $(INCLUDES) $(FLAGS)
+LINKFLAGS = -lstdc++ -lpthread
 
-# Output binaries
-SENDER_BIN := udp_sender
-RECV_BIN := udp_receiver
+all: UdpTesterApp
 
-# Default target (shows usage)
-all:
-	@echo "Usage:"
-	@echo "  make sender    # To build udp_sender"
-	@echo "  make receiver  # To build udp_receiver"
+APP_SRC = UdpTesterApp.cpp \
+		Timer.cpp
 
-# Compile sender
-sender: $(SENDER_SRC)
-	$(CXX) $(CXXFLAGS) -o $(SENDER_BIN) $(SENDER_SRC)
+APP_OBJ = UdpTesterApp.o \
+		Timer.o
 
-# Compile receiver
-receiver: $(RECV_SRC)
-	$(CXX) $(CXXFLAGS) -o $(RECV_BIN) $(RECV_SRC)
+UdpTesterApp: $(APP_OBJ)
+	$(CC) -o UdpTesterApp $(APP_OBJ) $(LINKFLAGS)
 
-# Clean build files
+UdpTesterApp.o: UdpTesterApp.cpp UdpTesterApp.h Include/Globals.h Include/Timer.h
+	$(CC) $(CCFLAGS) -o UdpTesterApp.o UdpTesterApp.cpp
+
+Timer.o: Include/Timer.cpp Include/Timer.h Include/Globals.h
+	$(CC) $(CCFLAGS) -o Timer.o Include/Timer.cpp
+
 clean:
-	rm -f $(SENDER_BIN) $(RECV_BIN)
+	@echo "[ CLEANING UP... ]"
+	rm -f *.o
+	rm -f UdpTesterApp

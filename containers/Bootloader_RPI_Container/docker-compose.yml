@@ -1,0 +1,11 @@
+# /mnt/o/Workspace/RPB_Metang/containers/Bootloader_RPI_Container
+
+services:
+  rpi-image-builder:
+    build: .
+    volumes:
+      - ./output:/workspace/output
+    environment:
+      - WIFI_SSID=SpectrumSetup-39
+      - WIFI_PASS=luckyfarmer064
+
