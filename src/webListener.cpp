@@ -34,14 +34,12 @@ void WebListener::init(void) {
 }
 
 void WebListener::mainLoop(void) {
-    // Do whatever
+
     int packetSize = 0;
     
-    printf("[ webListenerTask ]  Starting..\n");
 
-    while(1) {
-        // Do whatever
-        
+    printf("[ webListenerTask ]  Starting..\n");
+    while(1) {        
         // printf("[ webListenerTask ]  Working..\n");
         
         // Do something. Udp just convert the 
@@ -68,9 +66,6 @@ void WebListener::mainLoop(void) {
             }
             printf("\n");
         }
-
-        
-        
 
         vTaskDelay(200 / portTICK_PERIOD_MS);
     }

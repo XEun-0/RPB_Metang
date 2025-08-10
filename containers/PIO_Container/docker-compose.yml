@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  pio_rpb_metang:
+    container_name: PIO_RPB_Metang
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USER_UID: "${USER_UID:-1000}"  # Fallback UID if not passed
+        USER_GID: "${USER_GID:-1000}"  # Fallback GID if not passed
+      no_cache: true
+    image: platformio-dev
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"
+    volumes:
+      - "../../:/workspace"
+    stdin_open: true    # Equivalent to -it
+    tty: true
+    restart: unless-stopped
+
+  # docker-network:

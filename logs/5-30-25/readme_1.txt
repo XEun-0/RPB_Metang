@@ -1,7 +1,5 @@
 bottom line is use sudo for everything
 
-
-
 sudo hp-probe -busb
 
 // Testpage printing

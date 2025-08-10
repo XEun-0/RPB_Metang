@@ -20,3 +20,18 @@ cpp
 Copy
 Edit
 http://<raspberry_pi_ip>:631
+
+# 6/30/2025
+lsusb
+
+dmesg | grep -i usb
+
+ls /dev/usb*
+ls /dev/bus/usb/*
+
+sudo apt install hplip hplip-gui printer-driver-hpijs
+
+# hp specific
+fjura@fjura:~$ hp-setup
+hp-plugin -i
+sudo hp-setup -i
