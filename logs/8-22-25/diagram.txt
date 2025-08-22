@@ -1,0 +1,14 @@
+
+
+
+main pc -> udp packet making layer -> sends to Raspberry pi
+
+raspberry pi runs systemd or process that unpacks udp
+and puts together the correct document to print
+
+fjura@fjura:~$ lpstat -p -d
+printer Main is idle.  enabled since Fri Aug 22 11:35:32 2025
+no system default destination
+fjura@fjura:~$ lp -d Main hello.txt
+request id is Main-2 (1 file(s))
+fjura@fjura:~$ ls

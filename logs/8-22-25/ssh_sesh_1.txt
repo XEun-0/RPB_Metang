@@ -1,0 +1,468 @@
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.153.1-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+This message is shown once a day. To disable it please create the
+/home/fjura/.hushlogin file.
+fjura@DESKTOP-IB10381:~$ nmap -sn 192.168.1.0/24
+Command 'nmap' not found, but can be installed with:
+sudo snap install nmap  # version 7.95, or
+sudo apt  install nmap  # version 7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1
+See 'snap info nmap' for additional versions.
+fjura@DESKTOP-IB10381:~$ ping 192.168.1.118
+PING 192.168.1.118 (192.168.1.118) 56(84) bytes of data.
+64 bytes from 192.168.1.118: icmp_seq=1 ttl=63 time=128 ms
+64 bytes from 192.168.1.118: icmp_seq=2 ttl=63 time=5.64 ms
+64 bytes from 192.168.1.118: icmp_seq=3 ttl=63 time=3.55 ms
+^C
+--- 192.168.1.118 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 3.553/45.839/128.325/58.332 ms
+fjura@DESKTOP-IB10381:~$ ssh fjura@192.168.1.118
+fjura@192.168.1.118's password:
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-1080-raspi armv7l)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Aug 22 11:18:03 PDT 2025
+
+  System load:            0.3
+  Usage of /:             91.7% of 6.71GB
+  Memory usage:           37%
+  Swap usage:             0%
+  Temperature:            44.0 C
+  Processes:              143
+  Users logged in:        0
+  IPv4 address for wlan0: 192.168.1.118
+  IPv6 address for wlan0: 2603:8000:8c00:2d25::1731
+
+  => / is using 91.7% of 6.71GB
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+55 updates can be applied immediately.
+2 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+Last login: Mon Jun 30 09:40:15 2025 from 192.168.1.31
+fjura@fjura:~$ sudo reboot
+[sudo] password for fjura:
+Connection to 192.168.1.118 closed by remote host.
+Connection to 192.168.1.118 closed.
+fjura@DESKTOP-IB10381:~$ ssh fjura@192.168.1.118
+ssh: connect to host 192.168.1.118 port 22: Connection refused
+fjura@DESKTOP-IB10381:~$ ssh fjura@192.168.1.118
+fjura@192.168.1.118's password:
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-1084-raspi armv7l)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Aug 22 11:19:12 PDT 2025
+
+  System load:            2.08
+  Usage of /:             92.1% of 6.71GB
+  Memory usage:           31%
+  Swap usage:             0%
+  Temperature:            49.4 C
+  Processes:              155
+  Users logged in:        0
+  IPv4 address for wlan0: 192.168.1.118
+  IPv6 address for wlan0: 2603:8000:8c00:2d25::1731
+  IPv6 address for wlan0: fd00:147d:58f:2b38:2ecf:67ff:fece:5b22
+  IPv6 address for wlan0: 2603:8000:8c00:2d25:2ecf:67ff:fece:5b22
+
+  => / is using 92.1% of 6.71GB
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+55 updates can be applied immediately.
+2 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+New release '24.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Fri Aug 22 11:18:12 2025 from 192.168.1.31
+fjura@fjura:~$ ls
+fjura@fjura:~$ systemctl status cups
+● cups.service - CUPS Scheduler
+     Loaded: loaded (/lib/systemd/system/cups.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2025-08-22 11:19:04 PDT; 2min 18s ago
+TriggeredBy: ● cups.socket
+             ● cups.path
+       Docs: man:cupsd(8)
+   Main PID: 786 (cupsd)
+     Status: "Scheduler is running..."
+      Tasks: 1 (limit: 784)
+     Memory: 6.7M
+        CPU: 166ms
+     CGroup: /system.slice/cups.service
+             └─786 /usr/sbin/cupsd -l
+
+Aug 22 11:19:02 fjura systemd[1]: Starting CUPS Scheduler...
+Aug 22 11:19:04 fjura systemd[1]: Started CUPS Scheduler.
+fjura@fjura:~$ usbid
+Command 'usbid' not found, but there are 16 similar ones.
+fjura@fjura:~$ lsusb
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+fjura@fjura:~$ lsusb
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+fjura@fjura:~$ lsusb
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+fjura@fjura:~$ lsusb
+Bus 001 Device 002: ID 03f0:102a HP, Inc LaserJet Professional P 1102w
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+fjura@fjura:~$ sudo hp-setup -i
+[sudo] password for fjura:
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Printer/Fax Setup Utility ver. 9.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+(Note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.)
+
+
+--------------------------------
+| SELECT CONNECTION (I/O) TYPE |
+--------------------------------
+
+  Num       Connection  Description
+            Type
+  --------  ----------  ----------------------------------------------------------
+  0*        usb         Universal Serial Bus (USB)
+  1         net         Network/Ethernet/Wireless (direct connection or JetDirect)
+
+Enter number 0...1 for connection type (q=quit, enter=usb*) ?
+
+Using connection type: usb
+
+
+Setting up device: hp:/usb/HP_LaserJet_Professional_P_1102w?serial=000000000W474CFPPR1a
+
+
+
+------------------------
+| PLUG-IN INSTALLATION |
+------------------------
+
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Plugin Download and Install Utility ver. 2.1
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+warning: It is not recommended to run 'hp-plugin' in a root mode.
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Plugin Download and Install Utility ver. 2.1
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+(Note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.)
+
+
+------------------------------------------
+| PLUG-IN INSTALLATION FOR HPLIP 3.21.12 |
+------------------------------------------
+
+  Option      Description
+  ----------  --------------------------------------------------
+  d           Download plug-in from HP (recommended)
+  p           Specify a path to the plug-in (advanced)
+  q           Quit hp-plugin (skip installation)
+
+Enter option (d=download*, p=specify path, q=quit) ? d
+
+-------------------
+| DOWNLOAD PLUGIN |
+-------------------
+
+Checking for network connection...
+Downloading plug-in from:
+Downloading plug-in: [\                                                                           ] 0%Importing digital key
+
+
+----------------------
+| INSTALLING PLUG-IN |
+----------------------
+
+Creating directory plugin_tmp
+Verifying archive integrity... All good.
+Uncompressing HPLIP 3.21.12 Plugin Self Extracting Archive..............................................................
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Plugin Installer ver. 3.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+Plug-in version: 3.21.12
+Installed HPLIP version: 3.21.12
+Number of files to install: 64
+
+You must agree to the license terms before installing the plug-in:
+
+LICENSE TERMS FOR HP Linux Imaging and Printing (HPLIP) Driver Plug-in
+
+
+These License Terms govern your Use of the HPLIP Driver Plug-in Software (the "Software"). USE OF THE SOFTWARE
+INCLUDING, WITHOUT LIMITATION, ANY DOCUMENTATION, IS SUBJECT TO THESE LICENSE TERMS AND THE APPLICABLE AS-IS WARRANTY
+STATEMENT. BY DOWNLOADING AND INSTALLING THE SOFTWARE, YOU ARE AGREEING TO BE BOUND BY THESE TERMS. IF YOU DO NOT AGREE
+TO ALL OF THESE TERMS, DO NOT DOWNLOAD AND INSTALL THE SOFTWARE ON YOUR SYSTEM.
+
+
+1. License Grant. HP grants you a license to Use one copy of the Software with HP printing products only. "Use" includes
+using, storing, loading, installing, executing, and displaying the Software. You may not modify the Software or disable
+any licensing or control features of the Software.
+
+
+2. Ownership. The Software is owned and copyrighted by HP or its third party suppliers. Your license confers no title
+to, or ownership in, the Software and is not a sale of any rights in the Software. HP's third party suppliers may
+protect their rights in the Software in the event of any violation of these license terms.
+
+
+3. Copies and Adaptations. You may only make copies or adaptations of the Software for archival purposes or when copying
+or adaptation is an essential step in the authorized Use of the Software. You must reproduce all copyright notices in
+the original Software on all copies or adaptations. You may not copy the Software onto any public network.
+
+
+4. No Disassembly. You may not Disassemble the Software unless HP's prior written consent is obtained. "Disassemble"
+includes disassembling, decompiling, decrypting, and reverse engineering. In some jurisdictions, HP's consent may not be
+required for limited Disassembly. Upon request, you will provide HP with reasonably detailed information regarding any
+Disassembly.
+
+
+5. No Transfer. You may not assign, sublicense or otherwise transfer all or any part of these License Terms or the
+Software.
+
+
+6. Termination. HP may terminate your license, upon notice, for failure to comply with any of these License Terms. Upon
+termination, you must immediately destroy the Software, together with all copies, adaptations and merged portions in any
+form.
+
+
+7. Export Requirements. You may not export or re-export the Software or any copy or adaptation in violation of any
+applicable laws or regulations.
+
+
+8. U.S. Government Restricted Rights. The Software has been developed entirely at private expense. It is delivered and
+licensed, as defined in any applicable DFARS, FARS, or other equivalent federal agency regulation or contract clause, as
+either "commercial computer software" or "restricted computer software", whichever is applicable. You have only those
+rights provided for such Software by the applicable clause or regulation or by these License Terms.
+
+
+9. DISCLAIMER OF WARRANTIES. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, HP AND ITS SUPPLIERS PROVIDE THE
+SOFTWARE "AS IS" AND WITH ALL FAULTS, AND HEREBY DISCLAIM ALL OTHER WARRANTIES AND CONDITIONS, EITHER EXPRESS, IMPLIED,
+OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF TITLE AND NON-INFRINGEMENT, ANY IMPLIED WARRANTIES, DUTIES OR
+CONDITIONS OF MERCHANTABILITY, OF FITNESS FOR A PARTICULAR PURPOSE, AND OF LACK OF VIRUSES ALL WITH REGARD TO THE
+SOFTWARE. Some states/jurisdictions do not allow exclusion of implied warranties or limitations on the duration of
+implied warranties, so the above disclaimer may not apply to you in its entirety.
+
+
+10. LIMITATION OF LIABILITY. Notwithstanding any damages that you might incur, the entire liability of HP and any of its
+suppliers under any provision of this agreement and your exclusive remedy for all of the foregoing shall be limited to
+the greater of the amount actually paid by you separately for the Software or U.S. $5.00. TO THE MAXIMUM EXTENT
+PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL HP OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL,
+INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS OR
+CONFIDENTIAL OR OTHER INFORMATION, FOR BUSINESS INTERRUPTION, FOR PERSONAL INJURY, FOR LOSS OF PRIVACY ARISING OUT OF OR
+IN ANY WAY RELATED TO THE USE OF OR INABILITY TO USE THE SOFTWARE, OR OTHERWISE IN CONNECTION WITH ANY PROVISION OF THIS
+AGREEMENT, EVEN IF HP OR ANY SUPPLIER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND EVEN IF THE REMEDY FAILS
+OF ITS ESSENTIAL PURPOSE. Some states/jurisdictions do not allow the exclusion or limitation of incidental or
+consequential damages, so the above limitation or exclusion may not apply to you.
+
+Do you accept the license terms for the plug-in (y=yes*, n=no, q=quit) ? y
+
+Done.
+
+Done.
+
+---------------------
+| PRINT QUEUE SETUP |
+---------------------
+
+
+Please enter a name for this print queue (m=use model name:'HP_LaserJet_Professional_P_1102w'*, q=quit) ?Main
+Using queue name: Main
+Locating PPD file... Please wait.
+
+Found PPD file: drv:///hpcups.drv/hp-laserjet_professional_p_1102w.ppd
+Description:
+
+Note: The model number may vary slightly from the actual model number on the device.
+
+Does this PPD file appear to be the correct one (y=yes*, n=no, q=quit) ? y
+Enter a location description for this printer (q=quit) ?
+Enter additonal information or notes for this printer (q=quit) ?
+
+Adding print queue to CUPS:
+Device URI: hp:/usb/HP_LaserJet_Professional_P_1102w?serial=000000000W474CFPPR1a
+Queue name: Main
+PPD file: drv:///hpcups.drv/hp-laserjet_professional_p_1102w.ppd
+Location:
+Information:
+
+
+---------------------
+| PRINTER TEST PAGE |
+---------------------
+
+
+Would you like to print a test page (y=yes*, n=no, q=quit) ? y
+warning: hp-testpage should not be run as root/superuser.
+
+HP Linux Imaging and Printing System (ver. 3.21.12)
+Testpage Print Utility ver. 6.0
+
+Copyright (c) 2001-18 HP Development Company, LP
+This software comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to distribute it
+under certain conditions. See COPYING file for more details.
+
+Printing test page to printer Main...
+request id is Main-1 (1 file(s))
+Test page has been sent to printer.
+
+note: If an error occured, or the test page failed to print, refer to the HPLIP website
+note: at: http://hplip.sourceforge.net for troubleshooting and support.
+
+
+Done.
+
+Done.
+fjura@fjura:~$ lpstat -p-d
+lpstat: Invalid destination name in list "-d".
+fjura@fjura:~$ lpstat -p -d
+printer Main is idle.  enabled since Fri Aug 22 11:35:32 2025
+no system default destination
+fjura@fjura:~$ lp -d Main hello.txt
+request id is Main-2 (1 file(s))
+
+curl -O https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
+
+
+==================================================================================
+// Testing
+==================================================================================
+# Upload
+curl --upload-file ./myfile.pdf https://transfer.sh/myfile.pdf
+
+# Output will be a public URL you can curl:
+curl -O https://transfer.sh/XXXXXXXX/myfile.pdf
+
+==================================================================================
+// Testing
+==================================================================================
+curl -F "file=@packingslip.pdf" https://file.io
+
+
+
+==================================================================================
+// Testing
+==================================================================================
+Fjura@DESKTOP-IB10381 MINGW64 /o/Workspace/RPB_Metang/logs/8-22-25 (main)
+$ curl -F "file=@packingslip.pdf" https://tmp.ninja/upload
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   99k  100  1042  100   98k   1679   158k --:--:-- --:--:-- --:--:--  160k<!doctype html>
+<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_fxDFbtuE0UlQbiYlrpFELpAGVCVqlrMkVFcIhi69Q+R7JMP8QRMN/Hk/N5MyI73f9mzTZXEUW/ofKFTaAOxrgQ==" lang="en" style="background: #2B2B2B;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
+</head>
+<body>
+<div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiMDIyYTNhNDYtMGNhNC00ZTc1LWE2NGYtZDk1OTU0N2ViNzJjIiwicGFnZV90aW1lIjoxNzU1ODg5NTg3LCJwYWdlX3VybCI6Imh0dHBzOi8vdG1wLm5pbmphL3VwbG9hZCIsInBhZ2VfbWV0aG9kIjoiUE9TVCIsInBhZ2VfcmVxdWVzdCI6e30sInBhZ2VfaGVhZGVycyI6e30sImhvc3QiOiJ0bXAubmluamEiLCJpcCI6Ijc2LjE3MC44NC4yMTMifQo=";</script>
+<script src="/bKKmLtcJm.js"></script>
+</body>
+</html>
+
+==================================================================================
+// Testing
+==================================================================================
+Fjura@DESKTOP-IB10381 MINGW64 /o/Workspace/RPB_Metang/logs/8-22-25 (main)
+$ curl -F "reqtype=fileupload" -F "fileToUpload=@packingslip.pdf" https://catbox.moe/user/api.php
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   98k    0    35  100   98k    176   495k --:--:-- --:--:-- --:--:--  499khttps://files.catbox.moe/spvzh7.pdf
+
+Fjura@DESKTOP-IB10381 MINGW64 /o/Workspace/RPB_Metang/logs/8-22-25 (main)
+$
+https://files.catbox.moe/spvzh7.pdf
+
+curl -o packingslip.pdf https://files.catbox.moe/spvzh7.pdf
+
+==================================================================================
+// Testing
+==================================================================================
+fjura@fjura:/workspace$ lp -d Main dummy.pdf
+request id is Main-3 (1 file(s))
+fjura@fjura:/workspace$ sudo curl -O https://file.io/aQbnDJ
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+fjura@fjura:/workspace$ ls
+aQbnDJ  dummy.pdf
+fjura@fjura:/workspace$ lp -d Main aQbnDJ
+lp: No file in print request.
+fjura@fjura:/workspace$ curl -O packing.pdf https://files.catbox.moe/spvzh7.pdf
+curl: Remote file name has no length!
+curl: (23) Failed writing received data to disk/application
+fjura@fjura:/workspace$ curl -o packingslip.pdf https://files.catbox.moe/spvzh7.pdf
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Warning: Failed to create the file packingslip.pdf: Permission denied
+ 16   98k   16 16366    0     0  19319      0  0:00:05 --:--:--  0:00:05 19322
+curl: (23) Failure writing output to destination
+fjura@fjura:/workspace$ sudo curl -o packingslip.pdf https://files.catbox.moe/spvzh7.pdf
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   98k  100   98k    0     0   124k      0 --:--:-- --:--:-- --:--:--  124k
+fjura@fjura:/workspace$ ls
+aQbnDJ  dummy.pdf  packingslip.pdf
+fjura@fjura:/workspace$ lp -d Main packingslip.pdf
+request id is Main-5 (1 file(s))
+fjura@fjura:/workspace$
