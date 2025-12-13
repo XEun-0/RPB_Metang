@@ -460,9 +460,16 @@ curl: (23) Failure writing output to destination
 fjura@fjura:/workspace$ sudo curl -o packingslip.pdf https://files.catbox.moe/spvzh7.pdf
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   98k  100   98k    0     0   124k      0 --:--:-- --:--:-- --:--:--  124k
+100   98k  100   98k    0     0   124k      x0 --:--:-- --:--:-- --:--:--  124k
 fjura@fjura:/workspace$ ls
 aQbnDJ  dummy.pdf  packingslip.pdf
 fjura@fjura:/workspace$ lp -d Main packingslip.pdf
 request id is Main-5 (1 file(s))
-fjura@fjura:/workspace$
+
+
+Powershell admin -> netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=8080 connectaddress=<WSL_IP>
+
+// Testing on windows curl -F "file=@paylabel.pdf" http://192.168.1.31:8080/upload
+http://192.168.1.31:8080/uploads/ <- http server
+
+curl -F "file=@server_start.py" http://192.168.1.31:8080/upload

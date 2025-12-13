@@ -10,6 +10,7 @@ int main() {
 
     // Create UDP socket
     int sock = socket(AF_INET, SOCK_DGRAM, 0);
+    
     if (sock < 0) {
         perror("Socket creation failed");
         return 1;
